@@ -43,63 +43,10 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
-<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
-<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
-<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
-<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
-<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
-<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+
 </layers>
 <library>
 <description>Schematic and package of the AVR ATMEGA328P-AU</description>
@@ -391,6 +338,7 @@
 <wire x1="-9" y1="-5" x2="-9.4" y2="-5" width="0.127" layer="21"/>
 <wire x1="9" y1="-5" x2="9.4" y2="-5" width="0.127" layer="21"/>
 <wire x1="9" y1="5" x2="9.4" y2="5" width="0.127" layer="21"/>
+<text x="-10.16" y="0" size="1.27" layer="21" rot="R90" align="bottom-center">&gt;Name</text>
 </package>
 <package name="TSSOP-20">
 <smd name="1" x="-2.925" y="-2.75" dx="1" dy="0.35" layer="1" rot="R90"/>
@@ -420,20 +368,7 @@
 <wire x1="3.96" y1="-2.5" x2="3.96" y2="2.5" width="0.127" layer="21"/>
 <wire x1="3.96" y1="2.5" x2="3.46" y2="2.5" width="0.127" layer="21"/>
 <circle x="-4" y="-3" radius="0.353553125" width="0.127" layer="21"/>
-</package>
-<package name="MDPC-S-RA">
-<hole x="-4" y="-2" drill="1.4"/>
-<hole x="4" y="-2" drill="1.4"/>
-<hole x="-4" y="1.1" drill="0.8"/>
-<hole x="4" y="1.1" drill="0.8"/>
-<hole x="-4" y="0.9" drill="0.8"/>
-<hole x="-4" y="0.7" drill="0.8"/>
-<hole x="-4" y="1.3" drill="0.8"/>
-<hole x="-4" y="1.5" drill="0.8"/>
-<hole x="4" y="0.9" drill="0.8"/>
-<hole x="4" y="0.7" drill="0.8"/>
-<hole x="4" y="1.3" drill="0.8"/>
-<hole x="4" y="1.5" drill="0.8"/>
+<text x="-4.445" y="0" size="1" layer="21" ratio="10" rot="R90" align="bottom-center">&gt;Name</text>
 </package>
 <package name="USB-MICRO-B-FLAT">
 <smd name="3" x="0" y="2" dx="1.35" dy="0.4" layer="1" rot="R90"/>
@@ -479,11 +414,11 @@
 <wire x1="-1.5" y1="-0.2" x2="-1.5" y2="0.2" width="0.125" layer="21"/>
 <wire x1="-1.5" y1="1" x2="-1.5" y2="1.5" width="0.125" layer="21"/>
 </package>
-<package name="SOP-4--CPC1017N">
-<smd name="1" x="-1.27" y="-2.6" dx="0.75" dy="0.6" layer="1" roundness="100" rot="R90"/>
-<smd name="2" x="1.27" y="-2.6" dx="0.75" dy="0.6" layer="1" roundness="100" rot="R90"/>
-<smd name="4" x="-1.27" y="2.6" dx="0.75" dy="0.6" layer="1" roundness="100" rot="R90"/>
-<smd name="3" x="1.27" y="2.6" dx="0.75" dy="0.6" layer="1" roundness="100" rot="R90"/>
+<package name="SOP-4-NO">
+<smd name="1" x="-1.27" y="-2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="1.27" y="-2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-1.27" y="2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="1.27" y="2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
 <wire x1="-1.524" y1="2.032" x2="-2.032" y2="2.032" width="0.127" layer="21"/>
 <wire x1="-2.032" y1="2.032" x2="-2.032" y2="-2.032" width="0.127" layer="21"/>
 <wire x1="-2.032" y1="-2.032" x2="-1.524" y2="-2.032" width="0.127" layer="21"/>
@@ -576,7 +511,7 @@ SSR</text>
 <wire x1="-3" y1="1.55" x2="3" y2="1.55" width="0.127" layer="21"/>
 <text x="-3" y="0.6" size="0.889" layer="21" ratio="17" align="center-right">&gt;Name</text>
 </package>
-<package name="SOP-4--CPC1117N">
+<package name="SOP-4-NC">
 <smd name="1" x="-1.27" y="-2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
 <smd name="2" x="1.27" y="-2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
 <smd name="3" x="1.27" y="2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
@@ -675,6 +610,7 @@ SSR</text>
 <wire x1="2.75" y1="2.75" x2="2.75" y2="-2.75" width="0.127" layer="21"/>
 <wire x1="2.75" y1="-2.75" x2="2.5" y2="-2.75" width="0.127" layer="21"/>
 <circle x="-3" y="-3" radius="0.25" width="0.127" layer="21"/>
+<text x="-3.175" y="0" size="1" layer="21" ratio="10" rot="R90" align="bottom-center">&gt;Name</text>
 </package>
 <package name="LEADLESS-SMT">
 <smd name="1" x="-2.65" y="2.5" dx="2.54" dy="1.27" layer="1" rot="R180"/>
@@ -822,7 +758,7 @@ SSR</text>
 <wire x1="-2.05" y1="-1.3" x2="-2.5" y2="-0.85" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-0.85" x2="-2.5" y2="-1.3" width="0.127" layer="21"/>
 </package>
-<package name="SOT-223-5">
+<package name="SOT-223-4">
 <smd name="VOUT-1" x="0" y="3.2" dx="3.3" dy="1.8" layer="1"/>
 <smd name="VOUT" x="0" y="-3.2" dx="1.2" dy="1.8" layer="1"/>
 <smd name="ADJ" x="-2.3" y="-3.2" dx="1.2" dy="1.8" layer="1"/>
@@ -993,6 +929,7 @@ SSR</text>
 <wire x1="9" y1="1.65" x2="9.35" y2="2" width="0.127" layer="21"/>
 <wire x1="9.35" y1="2" x2="10.5" y2="2" width="0.127" layer="21"/>
 <wire x1="10.5" y1="2" x2="10.5" y2="-2.9" width="0.127" layer="21"/>
+<text x="0" y="-3.175" size="1" layer="25" ratio="10" align="top-center">&gt;Name</text>
 </package>
 <package name="1206-8">
 <smd name="1" x="-0.8128" y="0.9525" dx="0.5588" dy="0.4064" layer="1"/>
@@ -1520,86 +1457,6 @@ SSR</text>
 <circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
 <circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
 <hole x="0" y="0" drill="2.8"/>
-</package>
-<package name="DP3R020RU32JQ-REVERSED">
-<description>&lt;b&gt; RIGHT ANGLE MINI-DISPLAYPORT RECEPTACLE&lt;/b&gt;&lt;p&gt;
-Source: http://www.molex.com/pdm_docs/sd/1050810001_sd.pdf</description>
-<wire x1="-4.3" y1="6" x2="-3.75" y2="6.5" width="0.4" layer="21" curve="-90"/>
-<wire x1="-3.75" y1="6.5" x2="3.75" y2="6.5" width="0.4" layer="21"/>
-<wire x1="3.75" y1="6.5" x2="4.3" y2="6" width="0.4" layer="21" curve="-90"/>
-<wire x1="4.3" y1="6" x2="4.3" y2="-5.52" width="0.4" layer="21"/>
-<text x="-5.17525" y="3.175" size="1.27" layer="25" font="vector" ratio="16" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="0" y="7.62" size="1.27" layer="27" font="vector" align="bottom-center">&gt;VALUE</text>
-<pad name="20" x="-2.7" y="3.042375" drill="0.5" diameter="0.8"/>
-<pad name="14" x="-0.9" y="3.042375" drill="0.5" diameter="0.85"/>
-<pad name="8" x="0.9" y="3.042375" drill="0.5" diameter="0.85"/>
-<pad name="2" x="2.7" y="3.042375" drill="0.5" diameter="0.85"/>
-<pad name="18" x="-2.35" y="1.95475" drill="0.5" diameter="0.8"/>
-<pad name="16" x="-1.25" y="1.95475" drill="0.5" diameter="0.8"/>
-<pad name="6" x="1.25" y="1.95475" drill="0.5" diameter="0.8"/>
-<pad name="4" x="2.35" y="1.95475" drill="0.5" diameter="0.8"/>
-<pad name="12" x="-0.55" y="4.11" drill="0.5" diameter="0.8"/>
-<pad name="10" x="0.55" y="4.11" drill="0.5" diameter="0.8"/>
-<smd name="1" x="2.7" y="6.25" dx="0.35" dy="1.4" layer="1"/>
-<smd name="3" x="2.1" y="6.25" dx="0.35" dy="1.4" layer="1"/>
-<smd name="5" x="1.5" y="6.25" dx="0.35" dy="1.4" layer="1"/>
-<smd name="7" x="0.9" y="6.25" dx="0.35" dy="1.4" layer="1"/>
-<smd name="9" x="0.3" y="6.25" dx="0.35" dy="1.4" layer="1"/>
-<smd name="11" x="-0.3" y="6.25" dx="0.35" dy="1.4" layer="1"/>
-<smd name="13" x="-0.9" y="6.25" dx="0.35" dy="1.4" layer="1"/>
-<smd name="15" x="-1.5" y="6.25" dx="0.35" dy="1.4" layer="1"/>
-<smd name="17" x="-2.1" y="6.25" dx="0.35" dy="1.4" layer="1"/>
-<smd name="19" x="-2.7" y="6.25" dx="0.35" dy="1.4" layer="1"/>
-<wire x1="-4.3" y1="-5.52" x2="-4.3" y2="6" width="0.4" layer="21"/>
-<wire x1="-4.91" y1="-2.5" x2="-4.91" y2="-2.95" width="0" layer="46"/>
-<wire x1="-4.21" y1="-2.95" x2="-4.21" y2="-2.5" width="0" layer="46"/>
-<wire x1="-4.91" y1="-2.5" x2="-4.21" y2="-2.5" width="0" layer="46" curve="-180"/>
-<wire x1="-4.91" y1="-2.95" x2="-4.21" y2="-2.95" width="0" layer="46" curve="180"/>
-<wire x1="4.21" y1="-2.95" x2="4.21" y2="-2.5" width="0" layer="46"/>
-<wire x1="4.91" y1="-2.5" x2="4.91" y2="-2.95" width="0" layer="46"/>
-<wire x1="4.91" y1="-2.95" x2="4.21" y2="-2.95" width="0" layer="46" curve="-180"/>
-<wire x1="4.21" y1="-2.5" x2="4.91" y2="-2.5" width="0" layer="46" curve="-180"/>
-<wire x1="-4.61" y1="2.85" x2="-4.61" y2="3.3" width="0" layer="46"/>
-<wire x1="-3.91" y1="3.3" x2="-3.91" y2="2.85" width="0" layer="46"/>
-<wire x1="-4.61" y1="2.85" x2="-3.91" y2="2.85" width="0" layer="46" curve="180"/>
-<wire x1="-4.61" y1="3.3" x2="-3.91" y2="3.3" width="0" layer="46" curve="-180"/>
-<wire x1="3.91" y1="2.85" x2="3.91" y2="3.3" width="0" layer="46"/>
-<wire x1="4.61" y1="3.3" x2="4.61" y2="2.85" width="0" layer="46"/>
-<wire x1="3.91" y1="3.3" x2="4.61" y2="3.3" width="0" layer="46" curve="-180"/>
-<wire x1="4.61" y1="2.85" x2="3.91" y2="2.85" width="0" layer="46" curve="-180"/>
-<pad name="BR" x="-4.26" y="3.09" drill="0.8" diameter="1.6" shape="long" rot="R90" first="yes"/>
-<pad name="BL" x="4.26" y="3.09" drill="0.8" diameter="1.6" shape="long" rot="R90" first="yes"/>
-<pad name="FL" x="4.56" y="-2.72" drill="0.8" diameter="1.5" shape="long" rot="R90" first="yes"/>
-<pad name="FR" x="-4.56" y="-2.72" drill="0.8" diameter="1.5" shape="long" rot="R90" first="yes"/>
-<wire x1="-4.3" y1="-5.52" x2="4.3" y2="-5.52" width="0.4" layer="21"/>
-<wire x1="1.4095" y1="-3.468984375" x2="1.4095" y2="0.529325" width="0.2" layer="21"/>
-<wire x1="1.4095" y1="0.529325" x2="1.149459375" y2="0.562678125" width="0.2" layer="21" curve="165.382147"/>
-<wire x1="1.149459375" y1="0.562678125" x2="0.544434375" y2="-1.756584375" width="0.2" layer="21"/>
-<wire x1="0.544434375" y1="-1.756584375" x2="0.620221875" y2="-1.973540625" width="0.2" layer="21" curve="67.750556"/>
-<wire x1="0.620221875" y1="-1.973540625" x2="0.705540625" y2="-2.03753125" width="0.2" layer="21"/>
-<wire x1="0.705540625" y1="-2.03753125" x2="0.9095" y2="-2.44545" width="0.2" layer="21" curve="-53.129962"/>
-<wire x1="0.9095" y1="-2.44545" x2="0.9095" y2="-2.993775" width="0.2" layer="21"/>
-<wire x1="0.378484375" y1="-4.5" x2="-0.378484375" y2="-4.5" width="0.2" layer="21"/>
-<wire x1="-0.378484375" y1="-4.5" x2="-1.4095" y2="-3.468984375" width="0.2" layer="21" curve="-90"/>
-<wire x1="-1.4095" y1="-3.468984375" x2="-1.4095" y2="0.529325" width="0.2" layer="21"/>
-<wire x1="-1.4095" y1="0.529325" x2="-1.149459375" y2="0.562678125" width="0.2" layer="21" curve="-165.382147"/>
-<wire x1="-1.149459375" y1="0.562678125" x2="-0.544434375" y2="-1.756584375" width="0.2" layer="21"/>
-<wire x1="0.378484375" y1="-4.5" x2="1.4095" y2="-3.468984375" width="0.2" layer="21" curve="90"/>
-<wire x1="-0.544434375" y1="-1.756584375" x2="-0.620221875" y2="-1.973540625" width="0.2" layer="21" curve="-67.750556"/>
-<wire x1="-0.620221875" y1="-1.973540625" x2="-0.705540625" y2="-2.03753125" width="0.2" layer="21"/>
-<wire x1="-0.705540625" y1="-2.03753125" x2="-0.9095" y2="-2.44545" width="0.2" layer="21" curve="53.129962"/>
-<wire x1="-0.9095" y1="-2.44545" x2="-0.9095" y2="-2.993775" width="0.2" layer="21"/>
-<wire x1="-0.9095" y1="-2.993775" x2="-0.103275" y2="-3.8" width="0.2" layer="21" curve="90"/>
-<wire x1="0.9095" y1="-2.993775" x2="0.103275" y2="-3.8" width="0.2" layer="21" curve="-90"/>
-<wire x1="0.103275" y1="-3.8" x2="-0.103275" y2="-3.8" width="0.2" layer="21"/>
-<pad name="P$1" x="-4.25" y="3.85" drill="0.5" diameter="0.7"/>
-<pad name="P$2" x="-4.25" y="2.3" drill="0.5" diameter="0.7"/>
-<pad name="P$3" x="4.25" y="3.85" drill="0.5" diameter="0.7"/>
-<pad name="P$4" x="4.25" y="2.3" drill="0.5" diameter="0.7"/>
-<pad name="P$5" x="-4.55" y="-1.95" drill="0.5" diameter="0.7"/>
-<pad name="P$6" x="-4.55" y="-3.5" drill="0.5" diameter="0.7"/>
-<pad name="P$7" x="4.55" y="-1.95" drill="0.5" diameter="0.7"/>
-<pad name="P$8" x="4.55" y="-3.5" drill="0.5" diameter="0.7"/>
 </package>
 <package name="JAE-MDP-RVSD">
 <wire x1="-4.3" y1="6" x2="-3.75" y2="6.5" width="0.4" layer="21" curve="-90"/>
@@ -6739,6 +6596,7 @@ Flat</text>
 </devices>
 </deviceset>
 <deviceset name="OPA2333" uservalue="yes">
+<description>Dual Op Amp</description>
 <gates>
 <gate name="G$1" symbol="OPA2333" x="0" y="0"/>
 </gates>
@@ -6900,25 +6758,6 @@ Octal Transparent D-type latch</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPC1017N" prefix="K" uservalue="yes">
-<description>SS Relay, NO, SPST</description>
-<gates>
-<gate name="G$1" symbol="CPC1017N" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOP-4--CPC1017N">
-<connects>
-<connect gate="G$1" pin="C+" pad="1"/>
-<connect gate="G$1" pin="C-" pad="2"/>
-<connect gate="G$1" pin="L1" pad="3"/>
-<connect gate="G$1" pin="L2" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="105133-0001" prefix="X" uservalue="yes">
 <description>Molex Micro-B receptical, perpendicular to board</description>
 <gates>
@@ -6959,13 +6798,26 @@ Octal Transparent D-type latch</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPC1117N" prefix="K" uservalue="yes">
-<description>SS Relay, NC, SPST</description>
+<deviceset name="CPC1?17N" prefix="K" uservalue="yes">
+<description>150 mA Load Solid State Relay&lt;p&gt;
+CPC1117 is a NC, Normally Closed, Form-B Relay&lt;p&gt;
+CPC1017 is a NO, Normally Open, Form-A Relay&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CPC1117N" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOP-4--CPC1117N">
+<device name="1" package="SOP-4-NC">
+<connects>
+<connect gate="G$1" pin="C+" pad="1"/>
+<connect gate="G$1" pin="C-" pad="2"/>
+<connect gate="G$1" pin="L1" pad="3"/>
+<connect gate="G$1" pin="L2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0" package="SOP-4-NO">
 <connects>
 <connect gate="G$1" pin="C+" pad="1"/>
 <connect gate="G$1" pin="C-" pad="2"/>
@@ -7102,6 +6954,8 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="MICRO-SD-SLOT" uservalue="yes">
+<description>MicroSD Receptacle&lt;p&gt;
+Low profile and clearence slot with Card Detect pins</description>
 <gates>
 <gate name="G$1" symbol="MICRO-SD-154-30320-E" x="0" y="0"/>
 </gates>
@@ -7128,6 +6982,8 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="LW-T773" uservalue="yes">
+<description>Reverser Gullwing LED&lt;p&gt;
+White</description>
 <gates>
 <gate name="LED+D" symbol="LW-T773" x="0" y="0"/>
 </gates>
@@ -7185,6 +7041,8 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="LT-673">
+<description>Reverse Gullwing LED&lt;p&gt;
+Green</description>
 <gates>
 <gate name="G$1" symbol="LW-T773" x="0" y="0"/>
 </gates>
@@ -7241,13 +7099,13 @@ Used for independant SPI bus for SD Card</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ZLDO1117-ADJ" prefix="U" uservalue="yes">
+<deviceset name="ZLDO1117-" prefix="U" uservalue="yes">
 <description>Adjustable LDO</description>
 <gates>
 <gate name="G$1" symbol="ZLDO1117-ADJ" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT-223-5">
+<device name="ADJ" package="SOT-223-4">
 <connects>
 <connect gate="G$1" pin="(GND)" pad="ADJ"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
@@ -7289,6 +7147,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="WE-INDUCTOR" prefix="L" uservalue="yes">
+<description>Wurth Electronics WE-HCI Series Inductor</description>
 <gates>
 <gate name="G$1" symbol="WE-INDUCTOR" x="33.02" y="-2.54"/>
 </gates>
@@ -7431,6 +7290,9 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="SI5515CDC" prefix="Q">
+<description>Dual MOSFET&lt;P&gt;
+Top Mosfet, 1, is N-Channel&lt;p&gt;
+Bottom Mosfet, 2, is P-Channel</description>
 <gates>
 <gate name="G$1" symbol="SI5515CDC" x="0" y="0"/>
 </gates>
@@ -7453,6 +7315,8 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="2X-MOLEX-87340-0624" prefix="X">
+<description>Pair of MOLEX-87340-0624 female receptacles&lt;p&gt;
+2mm X 2mm female pin headers</description>
 <gates>
 <gate name="G$1" symbol="2X-MOLEX-87340-0624" x="2.54" y="-2.54"/>
 </gates>
@@ -7479,6 +7343,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="MOLEX-87760-1216" prefix="X">
+<description>12-pin Header, Right Angle</description>
 <gates>
 <gate name="G$1" symbol="MOLEX-87760-1216" x="0" y="0" swaplevel="1"/>
 </gates>
@@ -7505,6 +7370,8 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="APHB1608SYKSURKC" prefix="LED">
+<description>Dual Color LED&lt;p&gt;
+Left is Red, Right is Yellow</description>
 <gates>
 <gate name="G$1" symbol="APHB1608SYKSURKC" x="0" y="2.54"/>
 </gates>
@@ -7523,6 +7390,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="TL1963A-33DCQ">
+<description>SOT-223-6 Adjustable LDO</description>
 <gates>
 <gate name="G$1" symbol="TL1963A-33DCQ" x="0" y="0"/>
 </gates>
@@ -7543,6 +7411,8 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="DS1099" prefix="X" uservalue="yes">
+<description>Programmable Oscilator&lt;p&gt;
+Frequency range from 0.25Hz to 1.048MHz, in powers of 2, set at factory</description>
 <gates>
 <gate name="G$1" symbol="DS1099" x="0" y="0"/>
 </gates>
@@ -7565,6 +7435,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="SCHURTER-3101.0076" prefix="F" uservalue="yes">
+<description>Horizontal Mount Fuse Holder w/ Thumb Screw Cap</description>
 <gates>
 <gate name="G$1" symbol="SCHURTER-FUSE-HOLDER" x="0" y="0"/>
 </gates>
@@ -7582,6 +7453,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="R-" prefix="R" uservalue="yes">
+<description>Resistor</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="-2.54"/>
 </gates>
@@ -7616,6 +7488,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="C-" prefix="C" uservalue="yes">
+<description>Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
@@ -7650,6 +7523,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="2.8MM">
+<description>2.8mm mounting hole w/ cooper clearence</description>
 <gates>
 </gates>
 <devices>
@@ -7661,6 +7535,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="DP3R020?U32JQ" prefix="X" uservalue="yes">
+<description>JAE Mini DisplayPort, aka Thunderbolt</description>
 <gates>
 <gate name="G$1" symbol="MDP" x="0" y="0"/>
 </gates>
@@ -7733,52 +7608,9 @@ Used for independant SPI bus for SD Card</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DP3R020RU32JQ-REVERSED" prefix="X">
-<description>&lt;b&gt; RIGHT ANGLE MINI-DISPLAYPORT RECEPTACLE&lt;/b&gt;&lt;p&gt;
-Source: http://www.molex.com/pdm_docs/sd/1050810001_sd.pdf</description>
-<gates>
-<gate name="G$1" symbol="DP3R020RU32JQ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DP3R020RU32JQ-REVERSED">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19" route="any"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="BL" pad="BL"/>
-<connect gate="G$1" pin="BR" pad="BR"/>
-<connect gate="G$1" pin="FL" pad="FL"/>
-<connect gate="G$1" pin="FR" pad="FR"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="105081-0001" constant="no"/>
-<attribute name="OC_FARNELL" value="1774561" constant="no"/>
-<attribute name="OC_NEWARK" value="04R6635" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="HEADER-X?">
+<description>Modified Pin Header&lt;p&gt;
+Instead fo staggering hold to align header, holes are shrunk to 0.8 mm</description>
 <gates>
 <gate name="G$1" symbol="HEADER-X4" x="0" y="0"/>
 </gates>
@@ -7797,6 +7629,7 @@ Source: http://www.molex.com/pdm_docs/sd/1050810001_sd.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="TFZ20B">
+<description>Schottky Diode</description>
 <gates>
 <gate name="G$1" symbol="ZENER-DIODE" x="0" y="0"/>
 </gates>
@@ -7813,6 +7646,7 @@ Source: http://www.molex.com/pdm_docs/sd/1050810001_sd.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="PC-1771101">
+<description>3-Terminal Spring Cage Female Header</description>
 <gates>
 <gate name="G$1" symbol="PB-1771101" x="0" y="0"/>
 </gates>

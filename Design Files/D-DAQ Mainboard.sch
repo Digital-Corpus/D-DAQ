@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -46,9 +46,6 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -57,49 +54,6 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
-<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
-<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
-<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
-<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
-<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
-<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <description>D-DAQ
@@ -306,6 +260,7 @@ PIC32MX-controlled modular data aquisition and display</description>
 <wire x1="-9" y1="-5" x2="-9.4" y2="-5" width="0.127" layer="21"/>
 <wire x1="9" y1="-5" x2="9.4" y2="-5" width="0.127" layer="21"/>
 <wire x1="9" y1="5" x2="9.4" y2="5" width="0.127" layer="21"/>
+<text x="-10.16" y="0" size="1.27" layer="21" rot="R90" align="bottom-center">&gt;Name</text>
 </package>
 <package name="TSSOP-20">
 <smd name="1" x="-2.925" y="-2.75" dx="1" dy="0.35" layer="1" rot="R90"/>
@@ -335,6 +290,7 @@ PIC32MX-controlled modular data aquisition and display</description>
 <wire x1="3.96" y1="-2.5" x2="3.96" y2="2.5" width="0.127" layer="21"/>
 <wire x1="3.96" y1="2.5" x2="3.46" y2="2.5" width="0.127" layer="21"/>
 <circle x="-4" y="-3" radius="0.353553125" width="0.127" layer="21"/>
+<text x="-4.445" y="0" size="1" layer="21" ratio="10" rot="R90" align="bottom-center">&gt;Name</text>
 </package>
 <package name="LGA-8">
 <smd name="6" x="1.1" y="-0.625" dx="1" dy="0.55" layer="1"/>
@@ -359,29 +315,11 @@ PIC32MX-controlled modular data aquisition and display</description>
 <wire x1="-1.5" y1="-0.2" x2="-1.5" y2="0.2" width="0.125" layer="21"/>
 <wire x1="-1.5" y1="1" x2="-1.5" y2="1.5" width="0.125" layer="21"/>
 </package>
-<package name="SOP-4--CPC1117N">
+<package name="SOP-4-NO">
 <smd name="1" x="-1.27" y="-2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
 <smd name="2" x="1.27" y="-2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<smd name="3" x="1.27" y="2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
 <smd name="4" x="-1.27" y="2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<wire x1="-1.524" y1="2.032" x2="-2.032" y2="2.032" width="0.127" layer="21"/>
-<wire x1="-2.032" y1="2.032" x2="-2.032" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="-2.032" y1="-2.032" x2="-1.524" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="1.524" y1="2.032" x2="2.032" y2="2.032" width="0.127" layer="21"/>
-<wire x1="2.032" y1="2.032" x2="2.032" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="2.032" y1="-2.032" x2="1.524" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="-1.332" y1="-1.34" x2="-1.84" y2="-1.34" width="0.127" layer="21"/>
-<wire x1="-1.84" y1="-1.34" x2="-1.84" y2="-1.848" width="0.127" layer="21"/>
-<wire x1="-1.84" y1="-1.848" x2="-1.332" y2="-1.848" width="0.127" layer="21"/>
-<wire x1="-1.332" y1="-1.848" x2="-1.332" y2="-1.34" width="0.127" layer="21"/>
-<text x="0" y="0" size="0.889" layer="21" ratio="15" align="center">NC
-SSR</text>
-</package>
-<package name="SOP-4--CPC1017N">
-<smd name="1" x="-1.27" y="-2.6" dx="0.75" dy="0.6" layer="1" roundness="100" rot="R90"/>
-<smd name="2" x="1.27" y="-2.6" dx="0.75" dy="0.6" layer="1" roundness="100" rot="R90"/>
-<smd name="4" x="-1.27" y="2.6" dx="0.75" dy="0.6" layer="1" roundness="100" rot="R90"/>
-<smd name="3" x="1.27" y="2.6" dx="0.75" dy="0.6" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="1.27" y="2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
 <wire x1="-1.524" y1="2.032" x2="-2.032" y2="2.032" width="0.127" layer="21"/>
 <wire x1="-2.032" y1="2.032" x2="-2.032" y2="-2.032" width="0.127" layer="21"/>
 <wire x1="-2.032" y1="-2.032" x2="-1.524" y2="-2.032" width="0.127" layer="21"/>
@@ -438,6 +376,7 @@ SSR</text>
 <wire x1="2.75" y1="2.75" x2="2.75" y2="-2.75" width="0.127" layer="21"/>
 <wire x1="2.75" y1="-2.75" x2="2.5" y2="-2.75" width="0.127" layer="21"/>
 <circle x="-3" y="-3" radius="0.25" width="0.127" layer="21"/>
+<text x="-3.175" y="0" size="1" layer="21" ratio="10" rot="R90" align="bottom-center">&gt;Name</text>
 </package>
 <package name="LEADLESS-SMT">
 <smd name="1" x="-2.65" y="2.5" dx="2.54" dy="1.27" layer="1" rot="R180"/>
@@ -514,7 +453,7 @@ SSR</text>
 <wire x1="-2.05" y1="-1.3" x2="-2.5" y2="-0.85" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-0.85" x2="-2.5" y2="-1.3" width="0.127" layer="21"/>
 </package>
-<package name="SOT-223-5">
+<package name="SOT-223-4">
 <smd name="VOUT-1" x="0" y="3.2" dx="3.3" dy="1.8" layer="1"/>
 <smd name="VOUT" x="0" y="-3.2" dx="1.2" dy="1.8" layer="1"/>
 <smd name="ADJ" x="-2.3" y="-3.2" dx="1.2" dy="1.8" layer="1"/>
@@ -1165,6 +1104,24 @@ SSR</text>
 <wire x1="0.6" y1="-0.8" x2="0.6" y2="0.8" width="0.127" layer="21"/>
 <text x="0" y="-1.17" size="0.9144" layer="21" ratio="17" align="top-center">&gt;Name</text>
 </package>
+<package name="SOP-4-NC">
+<smd name="1" x="-1.27" y="-2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="1.27" y="-2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="1.27" y="2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-1.27" y="2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
+<wire x1="-1.524" y1="2.032" x2="-2.032" y2="2.032" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="2.032" x2="-2.032" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-2.032" x2="-1.524" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="1.524" y1="2.032" x2="2.032" y2="2.032" width="0.127" layer="21"/>
+<wire x1="2.032" y1="2.032" x2="2.032" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-2.032" x2="1.524" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-1.332" y1="-1.34" x2="-1.84" y2="-1.34" width="0.127" layer="21"/>
+<wire x1="-1.84" y1="-1.34" x2="-1.84" y2="-1.848" width="0.127" layer="21"/>
+<wire x1="-1.84" y1="-1.848" x2="-1.332" y2="-1.848" width="0.127" layer="21"/>
+<wire x1="-1.332" y1="-1.848" x2="-1.332" y2="-1.34" width="0.127" layer="21"/>
+<text x="0" y="0" size="0.889" layer="21" ratio="15" align="center">NC
+SSR</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PIC32MX795F512L-80V/PT">
@@ -1383,18 +1340,6 @@ SSR</text>
 <wire x1="5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="-1.27" y="0.254" size="0.635" layer="95" align="bottom-center">CPC1117N</text>
 <text x="-1.27" y="-0.254" size="0.635" layer="96" align="top-center">Normally Closed</text>
-</symbol>
-<symbol name="CPC1017N">
-<pin name="C+" x="-10.16" y="2.54" visible="pin" length="short" direction="pas"/>
-<pin name="C-" x="-10.16" y="-2.54" visible="pin" length="short" direction="pas"/>
-<pin name="L1" x="7.62" y="-2.54" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="L2" x="7.62" y="2.54" visible="pin" length="short" direction="pas" rot="R180"/>
-<wire x1="-7.62" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<text x="-1.27" y="0.254" size="0.635" layer="95" align="bottom-center">CPC1017N</text>
-<text x="-1.27" y="-0.254" size="0.635" layer="96" align="top-center">Normally Open</text>
 </symbol>
 <symbol name="MMA8491Q">
 <wire x1="-10.16" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
@@ -2121,13 +2066,15 @@ Octal Transparent D-type latch</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPC1117N" prefix="K" uservalue="yes">
-<description>SS Relay, NC, SPST</description>
+<deviceset name="CPC1?17N" prefix="K" uservalue="yes">
+<description>150 mA Load Solid State Relay&lt;p&gt;
+CPC1117 is a NC, Normally Closed, Form-B Relay&lt;p&gt;
+CPC1017 is a NO, Normally Open, Form-A Relay&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CPC1117N" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOP-4--CPC1117N">
+<device name="1" package="SOP-4-NC">
 <connects>
 <connect gate="G$1" pin="C+" pad="1"/>
 <connect gate="G$1" pin="C-" pad="2"/>
@@ -2138,15 +2085,7 @@ Octal Transparent D-type latch</description>
 <technology name=""/>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="CPC1017N" prefix="K" uservalue="yes">
-<description>SS Relay, NO, SPST</description>
-<gates>
-<gate name="G$1" symbol="CPC1017N" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOP-4--CPC1017N">
+<device name="0" package="SOP-4-NO">
 <connects>
 <connect gate="G$1" pin="C+" pad="1"/>
 <connect gate="G$1" pin="C-" pad="2"/>
@@ -2241,6 +2180,8 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="MICRO-SD-SLOT" uservalue="yes">
+<description>MicroSD Receptacle&lt;p&gt;
+Low profile and clearence slot with Card Detect pins</description>
 <gates>
 <gate name="G$1" symbol="MICRO-SD-154-30320-E" x="0" y="0"/>
 </gates>
@@ -2307,13 +2248,13 @@ Used for independant SPI bus for SD Card</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ZLDO1117-ADJ" prefix="U" uservalue="yes">
+<deviceset name="ZLDO1117-" prefix="U" uservalue="yes">
 <description>Adjustable LDO</description>
 <gates>
 <gate name="G$1" symbol="ZLDO1117-ADJ" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT-223-5">
+<device name="ADJ" package="SOT-223-4">
 <connects>
 <connect gate="G$1" pin="(GND)" pad="ADJ"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
@@ -2355,6 +2296,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="WE-INDUCTOR" prefix="L" uservalue="yes">
+<description>Wurth Electronics WE-HCI Series Inductor</description>
 <gates>
 <gate name="G$1" symbol="WE-INDUCTOR" x="33.02" y="-2.54"/>
 </gates>
@@ -2468,6 +2410,8 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="DS1099" prefix="X" uservalue="yes">
+<description>Programmable Oscilator&lt;p&gt;
+Frequency range from 0.25Hz to 1.048MHz, in powers of 2, set at factory</description>
 <gates>
 <gate name="G$1" symbol="DS1099" x="0" y="0"/>
 </gates>
@@ -2490,6 +2434,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="TL1963A-33DCQ">
+<description>SOT-223-6 Adjustable LDO</description>
 <gates>
 <gate name="G$1" symbol="TL1963A-33DCQ" x="0" y="0"/>
 </gates>
@@ -2510,6 +2455,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="C-" prefix="C" uservalue="yes">
+<description>Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
@@ -2544,6 +2490,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="R-" prefix="R" uservalue="yes">
+<description>Resistor</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="-2.54"/>
 </gates>
@@ -2578,6 +2525,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="DP3R020?U32JQ" prefix="X" uservalue="yes">
+<description>JAE Mini DisplayPort, aka Thunderbolt</description>
 <gates>
 <gate name="G$1" symbol="MDP" x="0" y="0"/>
 </gates>
@@ -2651,6 +2599,8 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="HEADER-X?">
+<description>Modified Pin Header&lt;p&gt;
+Instead fo staggering hold to align header, holes are shrunk to 0.8 mm</description>
 <gates>
 <gate name="G$1" symbol="HEADER-X4" x="0" y="0"/>
 </gates>
@@ -2669,6 +2619,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="TFZ20B">
+<description>Schottky Diode</description>
 <gates>
 <gate name="G$1" symbol="ZENER-DIODE" x="0" y="0"/>
 </gates>
@@ -2685,6 +2636,7 @@ Used for independant SPI bus for SD Card</description>
 </devices>
 </deviceset>
 <deviceset name="PC-1771101">
+<description>3-Terminal Spring Cage Female Header</description>
 <gates>
 <gate name="G$1" symbol="PB-1771101" x="0" y="0"/>
 </gates>
@@ -2770,8 +2722,8 @@ Used for independant SPI bus for SD Card</description>
 <part name="C126" library="Parts for D-DAQ" deviceset="C-" device="0603" value="0.1uF"/>
 <part name="C127" library="Parts for D-DAQ" deviceset="C-" device="0603" value="0.1uF"/>
 <part name="GND-PIC6" library="supply1" deviceset="GNDA" device="" value=""/>
-<part name="5V-TOGGLE-1" library="Parts for D-DAQ" deviceset="CPC1117N" device="" value="NC SSR"/>
-<part name="3.3V-TOGGLE-1" library="Parts for D-DAQ" deviceset="CPC1017N" device="" value="NO SSR"/>
+<part name="5V-TOGGLE-1" library="Parts for D-DAQ" deviceset="CPC1?17N" device="1" value="NC SSR"/>
+<part name="3.3V-TOGGLE-1" library="Parts for D-DAQ" deviceset="CPC1?17N" device="0" value="NO SSR"/>
 <part name="C118" library="Parts for D-DAQ" deviceset="C-" device="0603" value="0.1uF"/>
 <part name="C117" library="Parts for D-DAQ" deviceset="C-" device="0603" value="0.1uF"/>
 <part name="C119" library="Parts for D-DAQ" deviceset="C-" device="0603" value="0.1uF"/>
@@ -2799,8 +2751,8 @@ Used for independant SPI bus for SD Card</description>
 <part name="R127" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
 <part name="R135" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
 <part name="GND-PIC3" library="supply1" deviceset="GNDA" device="" value=""/>
-<part name="5V-TOGGLE-2" library="Parts for D-DAQ" deviceset="CPC1117N" device="" value="NC SSR"/>
-<part name="3.3V-TOGGLE-2" library="Parts for D-DAQ" deviceset="CPC1017N" device="" value="NO SSR"/>
+<part name="5V-TOGGLE-2" library="Parts for D-DAQ" deviceset="CPC1?17N" device="1" value="NC SSR"/>
+<part name="3.3V-TOGGLE-2" library="Parts for D-DAQ" deviceset="CPC1?17N" device="0" value="NO SSR"/>
 <part name="MMA8652FC" library="Parts for D-DAQ" deviceset="MMA8491Q" device="" value="Accelerometer"/>
 <part name="R140" library="Parts for D-DAQ" deviceset="R-" device="0603" value="1.4k"/>
 <part name="R141" library="Parts for D-DAQ" deviceset="R-" device="0603" value="1.4k"/>
@@ -2829,7 +2781,7 @@ Used for independant SPI bus for SD Card</description>
 <part name="R3" library="Parts for D-DAQ" deviceset="R-" device="0603" value="100k"/>
 <part name="Y1" library="Parts for D-DAQ" deviceset="XTC7009" device="" value="XTC7009"/>
 <part name="C1" library="Parts for D-DAQ" deviceset="C-" device="0603" value="10nF"/>
-<part name="5V-REG" library="Parts for D-DAQ" deviceset="ZLDO1117-ADJ" device="" value="ZLDO1117-5.0"/>
+<part name="5V-REG" library="Parts for D-DAQ" deviceset="ZLDO1117-" device="ADJ" value="ZLDO1117-5.0"/>
 <part name="MAIN-SMPS" library="Parts for D-DAQ" deviceset="MP2209" device=""/>
 <part name="L1" library="Parts for D-DAQ" deviceset="WE-INDUCTOR" device="" value="7.6uH"/>
 <part name="GND" library="supply1" deviceset="GNDA" device="" value=""/>
@@ -2876,8 +2828,8 @@ Used for independant SPI bus for SD Card</description>
 <part name="R21" library="Parts for D-DAQ" deviceset="R-" device="0603" value="100"/>
 <part name="R20" library="Parts for D-DAQ" deviceset="R-" device="0603" value="100"/>
 <part name="JTAG" library="Parts for D-DAQ" deviceset="HEADER-X?" device="4"/>
-<part name="5V-TOGGLE-5" library="Parts for D-DAQ" deviceset="CPC1117N" device="" value="NC SSR"/>
-<part name="3.3V-TOGGLE-5" library="Parts for D-DAQ" deviceset="CPC1017N" device="" value="NO SSR"/>
+<part name="5V-TOGGLE-5" library="Parts for D-DAQ" deviceset="CPC1?17N" device="1" value="NC SSR"/>
+<part name="3.3V-TOGGLE-5" library="Parts for D-DAQ" deviceset="CPC1?17N" device="0" value="NO SSR"/>
 <part name="R15" library="Parts for D-DAQ" deviceset="R-" device="0603" value="100"/>
 <part name="D1" library="Parts for D-DAQ" deviceset="S07D" device=""/>
 <part name="D2" library="Parts for D-DAQ" deviceset="S07D" device="" value="PMEG2010ER"/>

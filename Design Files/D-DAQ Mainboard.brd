@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -46,9 +46,6 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -57,49 +54,6 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
-<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
-<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
-<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
-<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
-<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
-<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
-<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -362,6 +316,7 @@ Michael O'Brien</text>
 <wire x1="-9" y1="-5" x2="-9.4" y2="-5" width="0.127" layer="21"/>
 <wire x1="9" y1="-5" x2="9.4" y2="-5" width="0.127" layer="21"/>
 <wire x1="9" y1="5" x2="9.4" y2="5" width="0.127" layer="21"/>
+<text x="-10.16" y="0" size="1.27" layer="21" rot="R90" align="bottom-center">&gt;Name</text>
 </package>
 <package name="TSSOP-20">
 <smd name="1" x="-2.925" y="-2.75" dx="1" dy="0.35" layer="1" rot="R90"/>
@@ -391,6 +346,7 @@ Michael O'Brien</text>
 <wire x1="3.96" y1="-2.5" x2="3.96" y2="2.5" width="0.127" layer="21"/>
 <wire x1="3.96" y1="2.5" x2="3.46" y2="2.5" width="0.127" layer="21"/>
 <circle x="-4" y="-3" radius="0.353553125" width="0.127" layer="21"/>
+<text x="-4.445" y="0" size="1" layer="21" ratio="10" rot="R90" align="bottom-center">&gt;Name</text>
 </package>
 <package name="LGA-8">
 <smd name="6" x="1.1" y="-0.625" dx="1" dy="0.55" layer="1"/>
@@ -415,7 +371,7 @@ Michael O'Brien</text>
 <wire x1="-1.5" y1="-0.2" x2="-1.5" y2="0.2" width="0.125" layer="21"/>
 <wire x1="-1.5" y1="1" x2="-1.5" y2="1.5" width="0.125" layer="21"/>
 </package>
-<package name="SOP-4--CPC1117N">
+<package name="SOP-4-NC">
 <smd name="1" x="-1.27" y="-2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
 <smd name="2" x="1.27" y="-2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
 <smd name="3" x="1.27" y="2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
@@ -433,11 +389,11 @@ Michael O'Brien</text>
 <text x="0" y="0" size="0.889" layer="21" ratio="15" align="center">NC
 SSR</text>
 </package>
-<package name="SOP-4--CPC1017N">
-<smd name="1" x="-1.27" y="-2.6" dx="0.75" dy="0.6" layer="1" roundness="100" rot="R90"/>
-<smd name="2" x="1.27" y="-2.6" dx="0.75" dy="0.6" layer="1" roundness="100" rot="R90"/>
-<smd name="4" x="-1.27" y="2.6" dx="0.75" dy="0.6" layer="1" roundness="100" rot="R90"/>
-<smd name="3" x="1.27" y="2.6" dx="0.75" dy="0.6" layer="1" roundness="100" rot="R90"/>
+<package name="SOP-4-NO">
+<smd name="1" x="-1.27" y="-2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="1.27" y="-2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-1.27" y="2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="1.27" y="2.6" dx="0.85" dy="0.65" layer="1" roundness="100" rot="R90"/>
 <wire x1="-1.524" y1="2.032" x2="-2.032" y2="2.032" width="0.127" layer="21"/>
 <wire x1="-2.032" y1="2.032" x2="-2.032" y2="-2.032" width="0.127" layer="21"/>
 <wire x1="-2.032" y1="-2.032" x2="-1.524" y2="-2.032" width="0.127" layer="21"/>
@@ -494,6 +450,7 @@ SSR</text>
 <wire x1="2.75" y1="2.75" x2="2.75" y2="-2.75" width="0.127" layer="21"/>
 <wire x1="2.75" y1="-2.75" x2="2.5" y2="-2.75" width="0.127" layer="21"/>
 <circle x="-3" y="-3" radius="0.25" width="0.127" layer="21"/>
+<text x="-3.175" y="0" size="1" layer="21" ratio="10" rot="R90" align="bottom-center">&gt;Name</text>
 </package>
 <package name="LEADLESS-SMT">
 <smd name="1" x="-2.65" y="2.5" dx="2.54" dy="1.27" layer="1" rot="R180"/>
@@ -570,7 +527,7 @@ SSR</text>
 <wire x1="-2.05" y1="-1.3" x2="-2.5" y2="-0.85" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-0.85" x2="-2.5" y2="-1.3" width="0.127" layer="21"/>
 </package>
-<package name="SOT-223-5">
+<package name="SOT-223-4">
 <smd name="VOUT-1" x="0" y="3.2" dx="3.3" dy="1.8" layer="1"/>
 <smd name="VOUT" x="0" y="-3.2" dx="1.2" dy="1.8" layer="1"/>
 <smd name="ADJ" x="-2.3" y="-3.2" dx="1.2" dy="1.8" layer="1"/>
@@ -1156,7 +1113,7 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <param name="mdSmdSmd" value="0mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="30mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
@@ -1328,8 +1285,8 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <element name="C125" library="Parts for D-DAQ" package="SMD-0603" value="10uF" x="45.005625" y="34.623375" rot="R225"/>
 <element name="C126" library="Parts for D-DAQ" package="SMD-0603" value="0.1uF" x="42.338625" y="33.670875" rot="R180"/>
 <element name="C127" library="Parts for D-DAQ" package="SMD-0603" value="0.1uF" x="43.005375" y="33.7185" rot="MR180"/>
-<element name="5V-TOGGLE-1" library="Parts for D-DAQ" package="SOP-4--CPC1117N" value="NC SSR" x="40.07235" y="17.99069375" rot="MR315"/>
-<element name="3.3V-TOGGLE-1" library="Parts for D-DAQ" package="SOP-4--CPC1017N" value="NO SSR" x="39.310353125" y="12.25935" rot="MR315"/>
+<element name="5V-TOGGLE-1" library="Parts for D-DAQ" package="SOP-4-NC" value="NC SSR" x="40.07235" y="17.99069375" rot="MR315"/>
+<element name="3.3V-TOGGLE-1" library="Parts for D-DAQ" package="SOP-4-NO" value="NO SSR" x="39.310353125" y="12.25935" rot="MR315"/>
 <element name="C118" library="Parts for D-DAQ" package="SMD-0603" value="0.1uF" x="57.87254375" y="22.43954375" rot="R135"/>
 <element name="C117" library="Parts for D-DAQ" package="SMD-0603" value="0.1uF" x="58.1025" y="29.62275" rot="R315"/>
 <element name="C119" library="Parts for D-DAQ" package="SMD-0603" value="0.1uF" x="67.15125" y="22.479"/>
@@ -1354,8 +1311,8 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <element name="R129" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="56.86425" y="31.956375"/>
 <element name="R127" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="61.1505" y="27.33675" rot="R180"/>
 <element name="R135" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="69.43725" y="19.90725" rot="R135"/>
-<element name="5V-TOGGLE-2" library="Parts for D-DAQ" package="SOP-4--CPC1117N" value="NC SSR" x="88.5825" y="15.71625" rot="MR0"/>
-<element name="3.3V-TOGGLE-2" library="Parts for D-DAQ" package="SOP-4--CPC1017N" value="NO SSR" x="81.3435" y="15.71625" rot="MR0"/>
+<element name="5V-TOGGLE-2" library="Parts for D-DAQ" package="SOP-4-NC" value="NC SSR" x="88.5825" y="15.71625" rot="MR0"/>
+<element name="3.3V-TOGGLE-2" library="Parts for D-DAQ" package="SOP-4-NO" value="NO SSR" x="81.3435" y="15.71625" rot="MR0"/>
 <element name="MMA8652FC" library="Parts for D-DAQ" package="QFN-12" value="Accelerometer" x="43.14825" y="40.1955" rot="R90"/>
 <element name="R140" library="Parts for D-DAQ" package="SMD-0603" value="1.4k" x="46.101" y="41.529"/>
 <element name="R141" library="Parts for D-DAQ" package="SMD-0603" value="1.4k" x="44.196" y="42.291" rot="MR270"/>
@@ -1382,7 +1339,7 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <element name="R3" library="Parts for D-DAQ" package="SMD-0603" value="100k" x="9.42975" y="17.04975" rot="R90"/>
 <element name="Y1" library="Parts for D-DAQ" package="3.2X2.5MM" value="XTC7009" x="53.482875" y="38.95725" rot="MR180"/>
 <element name="C1" library="Parts for D-DAQ" package="SMD-0603" value="10nF" x="53.49921875" y="38.052378125" rot="R90"/>
-<element name="5V-REG" library="Parts for D-DAQ" package="SOT-223-5" value="ZLDO1117-5.0" x="10.00125" y="41.91" rot="R180"/>
+<element name="5V-REG" library="Parts for D-DAQ" package="SOT-223-4" value="ZLDO1117-5.0" x="10.00125" y="41.91" rot="R180"/>
 <element name="MAIN-SMPS" library="Parts for D-DAQ" package="QFN-14" value="MP2209" x="16.09725" y="21.43125" rot="R270"/>
 <element name="L1" library="Parts for D-DAQ" package="7443551XXX" value="7.6uH" x="15.621" y="6.477"/>
 <element name="C2" library="Parts for D-DAQ" package="SMD-0603" value="10uF" x="50.597478125" y="32.8102375" rot="MR90"/>
@@ -1427,8 +1384,8 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <element name="R21" library="Parts for D-DAQ" package="SMD-0603" value="100" x="52.911375" y="17.526" rot="MR315"/>
 <element name="R20" library="Parts for D-DAQ" package="SMD-0603" value="100" x="79.91475" y="10.8585" rot="MR180"/>
 <element name="JTAG" library="Parts for D-DAQ" package="HEADER-X4" value="HEADER-X4" x="46.76775" y="28.432125" rot="R90"/>
-<element name="5V-TOGGLE-5" library="Parts for D-DAQ" package="SOP-4--CPC1117N" value="NC SSR" x="41.005125" y="26.431875" rot="R180"/>
-<element name="3.3V-TOGGLE-5" library="Parts for D-DAQ" package="SOP-4--CPC1017N" value="NO SSR" x="42.624375" y="27.574875" rot="MR180"/>
+<element name="5V-TOGGLE-5" library="Parts for D-DAQ" package="SOP-4-NC" value="NC SSR" x="41.005125" y="26.431875" rot="R180"/>
+<element name="3.3V-TOGGLE-5" library="Parts for D-DAQ" package="SOP-4-NO" value="NO SSR" x="42.624375" y="27.574875" rot="MR180"/>
 <element name="R15" library="Parts for D-DAQ" package="SMD-0603" value="100" x="43.434" y="30.099" rot="R270"/>
 <element name="C9" library="Parts for D-DAQ" package="SMD-0603" value="4.7uF" x="39.624" y="30.6705" rot="R135"/>
 <element name="C10" library="Parts for D-DAQ" package="SMD-0603" value="4.7uF" x="44.0055" y="11.477625" rot="MR0"/>
