@@ -1277,14 +1277,14 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 </pass>
 </autorouter>
 <elements>
-<element name="DISP-1" library="Parts for D-DAQ" package="JAE-MDP-STD" value="" x="73.43775" y="5.61975">
+<element name="DISP-1" library="Parts for D-DAQ" package="JAE-MDP-STD" value="Standard" x="73.43775" y="5.61975">
 <attribute name="ORIENTATION" value="Standard" x="73.43775" y="5.61975" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PIC32MX" library="Parts for D-DAQ" package="TQFP-100-12X12" value="795F512L-80V/PT" x="61.81725" y="30.76575" rot="MR45"/>
-<element name="DISP-3" library="Parts for D-DAQ" package="JAE-MDP-STD" value="" x="47.52975" y="5.61975">
+<element name="DISP-3" library="Parts for D-DAQ" package="JAE-MDP-STD" value="Standard" x="47.52975" y="5.61975">
 <attribute name="ORIENTATION" value="Standard" x="47.52975" y="5.61975" size="1.778" layer="27" display="off"/>
 </element>
-<element name="DISP-2" library="Parts for D-DAQ" package="JAE-MDP-STD" value="" x="60.48375" y="5.61975">
+<element name="DISP-2" library="Parts for D-DAQ" package="JAE-MDP-STD" value="Standard" x="60.48375" y="5.61975">
 <attribute name="ORIENTATION" value="Standard" x="60.48375" y="5.61975" size="1.778" layer="27" display="off"/>
 </element>
 <element name="AS7C31026B" library="Parts for D-DAQ" package="TSOP-44" value="1 Mbit SRAM" x="85.05825" y="33.43275">
@@ -1294,11 +1294,11 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <element name="R145" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="77.05725" y="43.33875" rot="R90"/>
 <element name="R147" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="82.58175" y="43.33875" rot="R90"/>
 <element name="R146" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="79.8195" y="43.33875" rot="R90"/>
-<element name="C124" library="Parts for D-DAQ" package="SMD-0603" value="10uF" x="64.167215625" y="37.147503125" rot="R315"/>
+<element name="C124" library="Parts for D-DAQ" package="SMD-0603" value="22uF" x="64.167215625" y="37.147503125" rot="R315"/>
 <element name="LATCH-LOW" library="Parts for D-DAQ" package="TSSOP-20" value="Octal D-Latch" x="85.88375" y="27.99715" rot="MR0"/>
 <element name="LATCH-HIGH" library="Parts for D-DAQ" package="TSSOP-20" value="Octal D-Latch" x="88.47455" y="38.48735" rot="MR180"/>
 <element name="MPL3115A101" library="Parts for D-DAQ" package="LGA-8" value="Baro &amp; Temp" x="43.005375" y="36.242625" rot="MR90"/>
-<element name="C125" library="Parts for D-DAQ" package="SMD-0603" value="10uF" x="45.005625" y="34.623375" rot="R225"/>
+<element name="C125" library="Parts for D-DAQ" package="SMD-0603" value="22uF" x="45.005625" y="34.623375" rot="R225"/>
 <element name="C126" library="Parts for D-DAQ" package="SMD-0603" value="0.1uF" x="42.338625" y="33.670875" rot="R180"/>
 <element name="C127" library="Parts for D-DAQ" package="SMD-0603" value="0.1uF" x="43.005375" y="33.7185" rot="MR180"/>
 <element name="5V-TOGGLE-1" library="Parts for D-DAQ" package="SOP-4-NC" value="NC SSR" x="40.07235" y="17.99069375" rot="MR315"/>
@@ -1343,7 +1343,7 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <element name="F6" library="Parts for D-DAQ" package="SMD-0603" value="470" x="28.0035" y="5.953125" rot="MR0"/>
 <element name="F5" library="Parts for D-DAQ" package="SMD-0603" value="470" x="38.19525" y="12.192" rot="R90"/>
 <element name="F4" library="Parts for D-DAQ" package="SMD-0603" value="470" x="39.766875" y="12.85875" rot="R270"/>
-<element name="MICRO-SD" library="Parts for D-DAQ" package="SCHA4B0400" value="SCHA4B0400" x="36.7665" y="45.05325" rot="MR180"/>
+<element name="MICRO-SD" library="Parts for D-DAQ" package="SCHA4B0400" value="47579-0001" x="36.7665" y="45.05325" rot="MR180"/>
 <element name="R9" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="40.67175" y="46.101" rot="R90"/>
 <element name="R8" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="34.29" y="46.355"/>
 <element name="R6" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="31.52775" y="43.195875" rot="R90"/>
@@ -1358,7 +1358,7 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <element name="5V-REG" library="Parts for D-DAQ" package="SOT-223-4" value="ZLDO1117-5.0" x="10.00125" y="41.7195" rot="R180"/>
 <element name="MAIN-SMPS" library="Parts for D-DAQ" package="QFN-14" value="MP2209" x="16.09725" y="21.43125" rot="R270"/>
 <element name="L1" library="Parts for D-DAQ" package="7443551XXX" value="7.6uH" x="15.621" y="6.477"/>
-<element name="C2" library="Parts for D-DAQ" package="SMD-0603" value="10uF" x="50.597478125" y="32.8102375" rot="MR90"/>
+<element name="C2" library="Parts for D-DAQ" package="SMD-0603" value="22uF" x="50.597478125" y="32.8102375" rot="MR90"/>
 <element name="F9" library="Parts for D-DAQ" package="SMD-0603" value="470" x="32.766" y="12.09675" rot="MR0"/>
 <element name="F10" library="Parts for D-DAQ" package="SMD-0603" value="470" x="27.2415" y="19.2405" rot="MR0"/>
 <element name="F11" library="Parts for D-DAQ" package="SMD-0603" value="470" x="32.766" y="19.2405" rot="MR0"/>
@@ -1376,13 +1376,13 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <element name="10&amp;11" library="Parts for D-DAQ" package="USB-MICRO-B-VERT" value="Micro USB" x="30.00375" y="16.66875"/>
 <element name="12&amp;13" library="Parts for D-DAQ" package="USB-MICRO-B-VERT" value="Micro USB" x="30.00375" y="23.8125"/>
 <element name="IMP." library="Parts for D-DAQ" package="USB-MICRO-B-VERT" value="Micro USB" x="58.76925" y="45.72" rot="R180"/>
-<element name="DATA" library="Parts for D-DAQ" package="USB-MINI-B-VERT" value="Mini USB" x="47.91075" y="45.62475"/>
-<element name="CAN-BUS" library="Parts for D-DAQ" package="USB-MINI-B-VERT" value="Mini USB" x="84.963" y="19.669125"/>
-<element name="2.8V" library="Parts for D-DAQ" package="SOT-23-5" value="TC1016" x="55.578375" y="37.05225" rot="R90"/>
+<element name="DATA" library="Parts for D-DAQ" package="USB-MINI-B-VERT" value="UE25BE5510H" x="47.91075" y="45.62475"/>
+<element name="CAN-BUS" library="Parts for D-DAQ" package="USB-MINI-B-VERT" value="UE25BE5510H" x="84.963" y="19.669125"/>
+<element name="2.8V" library="Parts for D-DAQ" package="SOT-23-5" value="TC1016-2.8VCTTR" x="55.578375" y="37.05225" rot="R90"/>
 <element name="POWER" library="Parts for D-DAQ" package="PC-1702610" value="1702610" x="17.71175" y="43.6825" rot="R270"/>
 <element name="AUX-PRESS" library="Parts for D-DAQ" package="PC-1771101" value="PC-1771101" x="94.107" y="13.5255" rot="MR270"/>
 <element name="EGT" library="Parts for D-DAQ" package="PC-1702610" value="1702610" x="90.39225" y="6.76275" rot="R90"/>
-<element name="D1" library="Parts for D-DAQ" package="DO-219AB-2" value="S07D" x="23.860125" y="47.4345" rot="R180"/>
+<element name="D1" library="Parts for D-DAQ" package="DO-219AB-2" value="S07D-GS08" x="23.860125" y="47.4345" rot="R180"/>
 <element name="U$6" library="Parts for D-DAQ" package="OSHW-LOGO-S" value="" x="91.44" y="46.863"/>
 <element name="U$7" library="Parts for D-DAQ" package="OSHW-LOGO-S" value="" x="65.151" y="46.863" rot="MR0"/>
 <element name="F14" library="Parts for D-DAQ" package="SMD-0603" value="470" x="73.05675" y="20.193" rot="R270"/>
@@ -1395,8 +1395,8 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <element name="D2" library="Parts for D-DAQ" package="DO-219AB-2" value="PMEG2010ER" x="26.38425" y="46.101" rot="MR90"/>
 <element name="D3" library="Parts for D-DAQ" package="DO-219AB-2" value="PMEG2010ER" x="27.670125" y="46.101" rot="R270"/>
 <element name="C8" library="Parts for D-DAQ" package="SMD-0603" value="0.1uF" x="12.47775" y="45.05325" rot="MR180"/>
-<element name="R14" library="Parts for D-DAQ" package="SMD-0603" value="34" x="28.09875" y="42.4815" rot="R180"/>
-<element name="D4" library="Parts for D-DAQ" package="TUMD2" value="TFZ20B" x="25.527" y="44.29125" rot="R270"/>
+<element name="R14" library="Parts for D-DAQ" package="SMD-0603" value="33.2" x="28.09875" y="42.4815" rot="R180"/>
+<element name="D4" library="Parts for D-DAQ" package="TUMD2" value="TFZGTR20B" x="25.527" y="44.29125" rot="R270"/>
 <element name="R21" library="Parts for D-DAQ" package="SMD-0603" value="100" x="52.911375" y="17.526" rot="MR315"/>
 <element name="R20" library="Parts for D-DAQ" package="SMD-0603" value="100" x="79.91475" y="10.8585" rot="MR180"/>
 <element name="JTAG" library="Parts for D-DAQ" package="HEADER-X4" value="HEADER-X4" x="46.76775" y="28.432125" rot="R90"/>

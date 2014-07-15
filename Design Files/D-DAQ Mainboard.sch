@@ -260,7 +260,7 @@ PIC32MX-controlled modular data aquisition and display</description>
 <wire x1="-9" y1="-5" x2="-9.4" y2="-5" width="0.127" layer="21"/>
 <wire x1="9" y1="-5" x2="9.4" y2="-5" width="0.127" layer="21"/>
 <wire x1="9" y1="5" x2="9.4" y2="5" width="0.127" layer="21"/>
-<text x="-10.16" y="0" size="1.27" layer="21" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="-10.16" y="0" size="1.016" layer="21" ratio="15" rot="R90" align="bottom-center">&gt;Name</text>
 </package>
 <package name="TSSOP-20">
 <smd name="1" x="-2.925" y="-2.75" dx="1" dy="0.35" layer="1" rot="R90"/>
@@ -290,7 +290,7 @@ PIC32MX-controlled modular data aquisition and display</description>
 <wire x1="3.96" y1="-2.5" x2="3.96" y2="2.5" width="0.127" layer="21"/>
 <wire x1="3.96" y1="2.5" x2="3.46" y2="2.5" width="0.127" layer="21"/>
 <circle x="-4" y="-3" radius="0.353553125" width="0.127" layer="21"/>
-<text x="-4.445" y="0" size="1" layer="21" ratio="10" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="0" y="3.81" size="1" layer="21" ratio="10" align="bottom-center">&gt;Name</text>
 </package>
 <package name="LGA-8">
 <smd name="6" x="1.1" y="-0.625" dx="1" dy="0.55" layer="1"/>
@@ -376,7 +376,7 @@ SSR</text>
 <wire x1="2.75" y1="2.75" x2="2.75" y2="-2.75" width="0.127" layer="21"/>
 <wire x1="2.75" y1="-2.75" x2="2.5" y2="-2.75" width="0.127" layer="21"/>
 <circle x="-3" y="-3" radius="0.25" width="0.127" layer="21"/>
-<text x="-3.175" y="0" size="1" layer="21" ratio="10" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="0" y="-4.445" size="1.016" layer="21" ratio="15" rot="R180" align="bottom-center">&gt;Name</text>
 </package>
 <package name="LEADLESS-SMT">
 <smd name="1" x="-2.65" y="2.5" dx="2.54" dy="1.27" layer="1" rot="R180"/>
@@ -1121,6 +1121,21 @@ SSR</text>
 <wire x1="-1.332" y1="-1.848" x2="-1.332" y2="-1.34" width="0.127" layer="21"/>
 <text x="0" y="0" size="0.889" layer="21" ratio="15" align="center">NC
 SSR</text>
+</package>
+<package name="SMD-1210">
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="40"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="40"/>
+<text x="-2.413" y="-1.27" size="1.016" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="-1.27" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -2487,6 +2502,15 @@ Frequency range from 0.25Hz to 1.048MHz, in powers of 2, set at factory</descrip
 <technology name=""/>
 </technologies>
 </device>
+<device name="1210" package="SMD-1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="R-" prefix="R" uservalue="yes">
@@ -2618,7 +2642,7 @@ Instead fo staggering hold to align header, holes are shrunk to 0.8 mm</descript
 </device>
 </devices>
 </deviceset>
-<deviceset name="TFZ20B">
+<deviceset name="TFZGTR20B">
 <description>Schottky Diode</description>
 <gates>
 <gate name="G$1" symbol="ZENER-DIODE" x="0" y="0"/>
@@ -2700,25 +2724,25 @@ Instead fo staggering hold to align header, holes are shrunk to 0.8 mm</descript
 </class>
 </classes>
 <parts>
-<part name="DISP-1" library="Parts for D-DAQ" deviceset="DP3R020?U32JQ" device="S"/>
+<part name="DISP-1" library="Parts for D-DAQ" deviceset="DP3R020?U32JQ" device="S" value="Standard"/>
 <part name="GND-DISP1" library="supply1" deviceset="GNDA" device="" value=""/>
 <part name="PIC32MX" library="Parts for D-DAQ" deviceset="PIC32MX795F512L-80I/P" device="T" value="795F512L-80V/PT"/>
-<part name="DISP-3" library="Parts for D-DAQ" deviceset="DP3R020?U32JQ" device="S"/>
+<part name="DISP-3" library="Parts for D-DAQ" deviceset="DP3R020?U32JQ" device="S" value="Standard"/>
 <part name="GND-DISP3" library="supply1" deviceset="GNDA" device="" value=""/>
-<part name="DISP-2" library="Parts for D-DAQ" deviceset="DP3R020?U32JQ" device="S"/>
+<part name="DISP-2" library="Parts for D-DAQ" deviceset="DP3R020?U32JQ" device="S" value="Standard"/>
 <part name="GND-DISP2" library="supply1" deviceset="GNDA" device="" value=""/>
 <part name="AS7C31026B" library="Parts for D-DAQ" deviceset="AS7C31026B-12TC" device="" value="1 Mbit SRAM"/>
 <part name="R142" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
 <part name="R145" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
 <part name="R147" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
 <part name="R146" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
-<part name="C124" library="Parts for D-DAQ" deviceset="C-" device="0603" value="10uF"/>
+<part name="C124" library="Parts for D-DAQ" deviceset="C-" device="0603" value="22uF"/>
 <part name="LATCH-LOW" library="Parts for D-DAQ" deviceset="74LVC573A" device="" value="Octal D-Latch"/>
 <part name="LATCH-HIGH" library="Parts for D-DAQ" deviceset="74LVC573A" device="" value="Octal D-Latch"/>
 <part name="MPL3115A101" library="Parts for D-DAQ" deviceset="MPL3115A2" device="" value="Baro &amp; Temp"/>
 <part name="GND-PIC1" library="supply1" deviceset="GNDA" device="" value=""/>
 <part name="GND-DISP4" library="supply1" deviceset="GNDA" device="" value=""/>
-<part name="C125" library="Parts for D-DAQ" deviceset="C-" device="0603" value="10uF"/>
+<part name="C125" library="Parts for D-DAQ" deviceset="C-" device="0603" value="22uF"/>
 <part name="C126" library="Parts for D-DAQ" deviceset="C-" device="0603" value="0.1uF"/>
 <part name="C127" library="Parts for D-DAQ" deviceset="C-" device="0603" value="0.1uF"/>
 <part name="GND-PIC6" library="supply1" deviceset="GNDA" device="" value=""/>
@@ -2730,22 +2754,22 @@ Instead fo staggering hold to align header, holes are shrunk to 0.8 mm</descript
 <part name="C122" library="Parts for D-DAQ" deviceset="C-" device="0603" value="0.1uF"/>
 <part name="R131" library="Parts for D-DAQ" deviceset="R-" device="0603" value="255"/>
 <part name="R130" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
-<part name="C21" library="Parts for D-DAQ" deviceset="C-" device="1206" value="47uF"/>
-<part name="C22" library="Parts for D-DAQ" deviceset="C-" device="1206" value="4.7uF"/>
+<part name="C21" library="Parts for D-DAQ" deviceset="C-" device="1206" value="4.7uF"/>
+<part name="C22" library="Parts for D-DAQ" deviceset="C-" device="1210" value="10uF"/>
 <part name="GND-PIC2" library="supply1" deviceset="GNDA" device="" value=""/>
 <part name="R2" library="Parts for D-DAQ" deviceset="R-" device="0603" value="158k"/>
 <part name="R1" library="Parts for D-DAQ" deviceset="R-" device="0603" value="499k"/>
 <part name="R5" library="Parts for D-DAQ" deviceset="R-" device="0603" value="100k"/>
 <part name="C5" library="Parts for D-DAQ" deviceset="C-" device="0603" value="0.1uF"/>
 <part name="C6" library="Parts for D-DAQ" deviceset="C-" device="0603" value="10nF"/>
-<part name="C1.1" library="Parts for D-DAQ" deviceset="C-" device="1812" value="47uF"/>
+<part name="C1.1" library="Parts for D-DAQ" deviceset="C-" device="1812" value="22uF"/>
 <part name="GND-PIC4" library="supply1" deviceset="GNDA" device="" value=""/>
 <part name="C3" library="Parts for D-DAQ" deviceset="C-" device="1206" value="47uF"/>
-<part name="C1.2" library="Parts for D-DAQ" deviceset="C-" device="1812" value="47uF"/>
+<part name="C1.2" library="Parts for D-DAQ" deviceset="C-" device="1812" value="22uF"/>
 <part name="C4" library="Parts for D-DAQ" deviceset="C-" device="0603" value="1uF"/>
 <part name="R31" library="Parts for D-DAQ" deviceset="R-" device="0603" value="3.01k"/>
 <part name="R32" library="Parts for D-DAQ" deviceset="R-" device="0603" value="30.9k"/>
-<part name="C31" library="Parts for D-DAQ" deviceset="C-" device="1206" value="10uF"/>
+<part name="C31" library="Parts for D-DAQ" deviceset="C-" device="1210" value="10uF"/>
 <part name="R4" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10"/>
 <part name="R129" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
 <part name="R127" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
@@ -2768,7 +2792,7 @@ Instead fo staggering hold to align header, holes are shrunk to 0.8 mm</descript
 <part name="F6" library="Parts for D-DAQ" deviceset="R-" device="0603" value="470"/>
 <part name="F5" library="Parts for D-DAQ" deviceset="R-" device="0603" value="470"/>
 <part name="F4" library="Parts for D-DAQ" deviceset="R-" device="0603" value="470"/>
-<part name="MICRO-SD" library="Parts for D-DAQ" deviceset="MICRO-SD-SLOT" device="" value="SCHA4B0400"/>
+<part name="MICRO-SD" library="Parts for D-DAQ" deviceset="MICRO-SD-SLOT" device="" value="47579-0001"/>
 <part name="R9" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
 <part name="R8" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
 <part name="R6" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
@@ -2785,7 +2809,7 @@ Instead fo staggering hold to align header, holes are shrunk to 0.8 mm</descript
 <part name="MAIN-SMPS" library="Parts for D-DAQ" deviceset="MP2209" device=""/>
 <part name="L1" library="Parts for D-DAQ" deviceset="WE-INDUCTOR" device="" value="7.6uH"/>
 <part name="GND" library="supply1" deviceset="GNDA" device="" value=""/>
-<part name="C2" library="Parts for D-DAQ" deviceset="C-" device="0603" value="10uF"/>
+<part name="C2" library="Parts for D-DAQ" deviceset="C-" device="0603" value="22uF"/>
 <part name="F9" library="Parts for D-DAQ" deviceset="R-" device="0603" value="470"/>
 <part name="F10" library="Parts for D-DAQ" deviceset="R-" device="0603" value="470"/>
 <part name="F11" library="Parts for D-DAQ" deviceset="R-" device="0603" value="470"/>
@@ -2804,9 +2828,9 @@ Instead fo staggering hold to align header, holes are shrunk to 0.8 mm</descript
 <part name="10&amp;11" library="Parts for D-DAQ" deviceset="105133-0001" device="" value="Micro USB"/>
 <part name="12&amp;13" library="Parts for D-DAQ" deviceset="105133-0001" device="" value="Micro USB"/>
 <part name="IMP." library="Parts for D-DAQ" deviceset="105133-0001" device="" value="Micro USB"/>
-<part name="DATA" library="Parts for D-DAQ" deviceset="UE25-BE55-10H" device="" value="Mini USB"/>
-<part name="CAN-BUS" library="Parts for D-DAQ" deviceset="UE25-BE55-10H" device="" value="Mini USB"/>
-<part name="2.8V" library="Parts for D-DAQ" deviceset="TC1016" device=""/>
+<part name="DATA" library="Parts for D-DAQ" deviceset="UE25-BE55-10H" device="" value="UE25BE5510H"/>
+<part name="CAN-BUS" library="Parts for D-DAQ" deviceset="UE25-BE55-10H" device="" value="UE25BE5510H"/>
+<part name="2.8V" library="Parts for D-DAQ" deviceset="TC1016" device="" value="TC1016-2.8VCTTR"/>
 <part name="POWER" library="Parts for D-DAQ" deviceset="1702610" device=""/>
 <part name="AUX-PRESS" library="Parts for D-DAQ" deviceset="PC-1771101" device=""/>
 <part name="GND1" library="supply1" deviceset="GNDA" device="" value=""/>
@@ -2814,24 +2838,24 @@ Instead fo staggering hold to align header, holes are shrunk to 0.8 mm</descript
 <part name="F14" library="Parts for D-DAQ" deviceset="R-" device="0603" value="470"/>
 <part name="R12" library="Parts for D-DAQ" deviceset="R-" device="0603" value="10k"/>
 <part name="C7" library="Parts for D-DAQ" deviceset="C-" device="0603" value="0.1uF"/>
-<part name="C2.1" library="Parts for D-DAQ" deviceset="C-" device="1206" value="4.7uF"/>
+<part name="C2.1" library="Parts for D-DAQ" deviceset="C-" device="1210" value="10uF"/>
 <part name="Y2" library="Parts for D-DAQ" deviceset="DS1099" device="" value="DS1099"/>
-<part name="C2.2" library="Parts for D-DAQ" deviceset="C-" device="1206" value="4.7uF"/>
+<part name="C2.2" library="Parts for D-DAQ" deviceset="C-" device="1210" value="10uF"/>
 <part name="14V-REG" library="Parts for D-DAQ" deviceset="TL1963A-33DCQ" device=""/>
 <part name="GND-PIC5" library="supply1" deviceset="GNDA" device="" value=""/>
 <part name="GND-PIC7" library="supply1" deviceset="GNDA" device="" value=""/>
 <part name="C8" library="Parts for D-DAQ" deviceset="C-" device="0603" value="0.1uF"/>
 <part name="GND-PIC8" library="supply1" deviceset="GNDA" device="" value=""/>
-<part name="R14" library="Parts for D-DAQ" deviceset="R-" device="0603" value="34"/>
-<part name="D4" library="Parts for D-DAQ" deviceset="TFZ20B" device="" value="TFZ20B"/>
+<part name="R14" library="Parts for D-DAQ" deviceset="R-" device="0603" value="33.2"/>
+<part name="D4" library="Parts for D-DAQ" deviceset="TFZGTR20B" device="" value="TFZGTR20B"/>
 <part name="GND-DISP5" library="supply1" deviceset="GNDA" device="" value=""/>
 <part name="R21" library="Parts for D-DAQ" deviceset="R-" device="0603" value="100"/>
 <part name="R20" library="Parts for D-DAQ" deviceset="R-" device="0603" value="100"/>
 <part name="JTAG" library="Parts for D-DAQ" deviceset="HEADER-X?" device="4"/>
-<part name="5V-TOGGLE-5" library="Parts for D-DAQ" deviceset="CPC1?17N" device="1" value="NC SSR"/>
-<part name="3.3V-TOGGLE-5" library="Parts for D-DAQ" deviceset="CPC1?17N" device="0" value="NO SSR"/>
+<part name="5V-TOGGLE-3" library="Parts for D-DAQ" deviceset="CPC1?17N" device="1" value="NC SSR"/>
+<part name="3.3V-TOGGLE-3" library="Parts for D-DAQ" deviceset="CPC1?17N" device="0" value="NO SSR"/>
 <part name="R15" library="Parts for D-DAQ" deviceset="R-" device="0603" value="100"/>
-<part name="D1" library="Parts for D-DAQ" deviceset="S07D" device=""/>
+<part name="D1" library="Parts for D-DAQ" deviceset="S07D" device="" value="S07D-GS08"/>
 <part name="D2" library="Parts for D-DAQ" deviceset="S07D" device="" value="PMEG2010ER"/>
 <part name="D3" library="Parts for D-DAQ" deviceset="S07D" device="" value="PMEG2010ER"/>
 <part name="C9" library="Parts for D-DAQ" deviceset="C-" device="0603" value="4.7uF"/>
@@ -2843,7 +2867,7 @@ Instead fo staggering hold to align header, holes are shrunk to 0.8 mm</descript
 <description>Maniboard</description>
 <plain>
 <text x="-190.5" y="-91.44" size="2.54" layer="91" align="center">Schematic Capture for D-DAQ
-Version: Proto v3.6
+Version: Proto v3.6.5
 Released Under CERN OHL v1.2</text>
 </plain>
 <instances>
@@ -2880,8 +2904,8 @@ Released Under CERN OHL v1.2</text>
 <instance part="C21" gate="G$1" x="-121.92" y="114.3" rot="MR180"/>
 <instance part="C22" gate="G$1" x="-147.32" y="111.76" rot="R180"/>
 <instance part="GND-PIC2" gate="1" x="-124.46" y="124.46" rot="MR180"/>
-<instance part="R2" gate="G$1" x="-132.08" y="76.2" rot="R90"/>
-<instance part="R1" gate="G$1" x="-132.08" y="86.36" rot="R90"/>
+<instance part="R2" gate="G$1" x="-132.08" y="76.2" rot="R270"/>
+<instance part="R1" gate="G$1" x="-132.08" y="86.36" rot="MR270"/>
 <instance part="R5" gate="G$1" x="-132.08" y="53.34" rot="R180"/>
 <instance part="C5" gate="G$1" x="-165.1" y="43.18"/>
 <instance part="C6" gate="G$1" x="-177.8" y="60.96" rot="MR0"/>
@@ -2892,7 +2916,7 @@ Released Under CERN OHL v1.2</text>
 <instance part="C4" gate="G$1" x="-137.16" y="43.18" rot="R180"/>
 <instance part="R31" gate="G$1" x="-205.74" y="40.64" rot="R90"/>
 <instance part="R32" gate="G$1" x="-205.74" y="53.34" rot="MR90"/>
-<instance part="C31" gate="G$1" x="-210.82" y="33.02" rot="MR270"/>
+<instance part="C31" gate="G$1" x="-208.28" y="33.02" rot="R270"/>
 <instance part="R4" gate="G$1" x="-129.54" y="43.18" rot="R270"/>
 <instance part="R129" gate="G$1" x="-53.34" y="-22.86" rot="MR0"/>
 <instance part="R127" gate="G$1" x="-71.12" y="-7.62" rot="R90"/>
@@ -2975,8 +2999,8 @@ Released Under CERN OHL v1.2</text>
 <instance part="R21" gate="G$1" x="-83.82" y="88.9" rot="R180"/>
 <instance part="R20" gate="G$1" x="-91.44" y="96.52" rot="R180"/>
 <instance part="JTAG" gate="G$1" x="15.24" y="-114.3" rot="MR270"/>
-<instance part="5V-TOGGLE-5" gate="G$1" x="-177.8" y="-48.26" rot="R180"/>
-<instance part="3.3V-TOGGLE-5" gate="G$1" x="-177.8" y="-35.56" rot="R180"/>
+<instance part="5V-TOGGLE-3" gate="G$1" x="-177.8" y="-48.26" rot="R180"/>
+<instance part="3.3V-TOGGLE-3" gate="G$1" x="-177.8" y="-35.56" rot="R180"/>
 <instance part="R15" gate="G$1" x="-58.42" y="17.78" rot="R180"/>
 <instance part="D1" gate="G$1" x="-165.1" y="111.76" rot="R90"/>
 <instance part="D2" gate="G$1" x="-182.88" y="96.52" rot="R270"/>
@@ -4063,9 +4087,9 @@ Released Under CERN OHL v1.2</text>
 </net>
 <net name="14V-RAIL" class="0">
 <segment>
-<wire x1="-213.36" y1="33.02" x2="-213.36" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="-213.36" y1="-53.34" x2="-208.28" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="-208.28" y1="-58.42" x2="-170.18" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-213.36" y1="33.02" x2="-213.36" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-213.36" y1="-35.56" x2="-190.5" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="-58.42" x2="-170.18" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="-58.42" x2="-152.4" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="-152.4" y1="-76.2" x2="-152.4" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="-152.4" y1="-114.3" x2="-147.32" y2="-119.38" width="0.1524" layer="91"/>
@@ -4094,13 +4118,14 @@ Released Under CERN OHL v1.2</text>
 <pinref part="DISP-1" gate="G$1" pin="18"/>
 <wire x1="43.18" y1="111.76" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="109.22" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C31" gate="G$1" pin="1"/>
+<pinref part="C31" gate="G$1" pin="2"/>
 <pinref part="14V-REG" gate="G$1" pin="OUT"/>
 <wire x1="-213.36" y1="33.02" x2="-213.36" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-213.36" y1="53.34" x2="-208.28" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-208.28" y1="58.42" x2="-205.74" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="2"/>
-<wire x1="-205.74" y1="58.42" x2="-195.58" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="58.42" x2="-203.2" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-203.2" y1="58.42" x2="-195.58" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-195.58" y1="50.8" x2="-195.58" y2="43.18" width="0.1524" layer="91"/>
 <junction x="-205.74" y="58.42"/>
 <junction x="-213.36" y="33.02"/>
@@ -4631,7 +4656,7 @@ Released Under CERN OHL v1.2</text>
 <wire x1="-195.58" y1="-10.16" x2="-203.2" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-203.2" y1="-17.78" x2="-203.2" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="-195.58" y="-10.16"/>
-<pinref part="5V-TOGGLE-5" gate="G$1" pin="L2"/>
+<pinref part="5V-TOGGLE-3" gate="G$1" pin="L2"/>
 <wire x1="-203.2" y1="-40.64" x2="-193.04" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-193.04" y1="-50.8" x2="-185.42" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="5V-TOGGLE-1" gate="G$1" pin="L1"/>
@@ -4856,7 +4881,7 @@ Released Under CERN OHL v1.2</text>
 <junction x="-165.1" y="35.56"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <junction x="-177.8" y="55.88"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-132.08" y1="71.12" x2="-134.62" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="68.58" x2="-139.7" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-139.7" y="68.58"/>
@@ -5063,7 +5088,7 @@ Released Under CERN OHL v1.2</text>
 <pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="-200.66" y1="22.86" x2="-205.74" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-205.74" y1="27.94" x2="-205.74" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="C31" gate="G$1" pin="2"/>
+<pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="-205.74" y1="33.02" x2="-205.74" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-205.74" y="33.02"/>
 </segment>
@@ -5160,10 +5185,10 @@ Released Under CERN OHL v1.2</text>
 <net name="12V-FB" class="0">
 <segment>
 <pinref part="MAIN-SMPS" gate="G$1" pin="FB"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-132.08" y1="81.28" x2="-137.16" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="81.28" x2="-139.7" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <junction x="-132.08" y="81.28"/>
 <junction x="-132.08" y="81.28"/>
 </segment>
@@ -5565,7 +5590,7 @@ Released Under CERN OHL v1.2</text>
 <pinref part="C123" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="-86.36" x2="50.8" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="50.8" y="-78.74"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="P$2"/>
 <wire x1="-119.38" y1="78.74" x2="-119.38" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="91.44" x2="-132.08" y2="91.44" width="0.1524" layer="91"/>
@@ -5672,7 +5697,7 @@ Released Under CERN OHL v1.2</text>
 <wire x1="-40.64" y1="91.44" x2="-40.64" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="88.9" x2="-40.64" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="86.36" x2="-38.1" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="3.3V-TOGGLE-5" gate="G$1" pin="L2"/>
+<pinref part="3.3V-TOGGLE-3" gate="G$1" pin="L2"/>
 <wire x1="-185.42" y1="-38.1" x2="-205.74" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-205.74" y1="-17.78" x2="-205.74" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-205.74" y1="-15.24" x2="-205.74" y2="-5.08" width="0.1524" layer="91"/>
@@ -5698,8 +5723,8 @@ Released Under CERN OHL v1.2</text>
 </net>
 <net name="CHARG-CAPS" class="0">
 <segment>
-<pinref part="C2.1" gate="G$1" pin="2"/>
-<wire x1="-195.58" y1="91.44" x2="-198.12" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="C2.1" gate="G$1" pin="1"/>
+<wire x1="-187.96" y1="91.44" x2="-198.12" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="Y2" gate="G$1" pin="OUT1"/>
 <wire x1="-198.12" y1="91.44" x2="-203.2" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-203.2" y1="96.52" x2="-203.2" y2="106.68" width="0.1524" layer="91"/>
@@ -5718,10 +5743,10 @@ Released Under CERN OHL v1.2</text>
 </net>
 <net name="CP-PUMP" class="0">
 <segment>
-<pinref part="C2.1" gate="G$1" pin="1"/>
+<pinref part="C2.1" gate="G$1" pin="2"/>
 <wire x1="-182.88" y1="86.36" x2="-182.88" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="91.44" x2="-182.88" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-182.88" y1="91.44" x2="-187.96" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-182.88" y1="91.44" x2="-195.58" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-182.88" y="91.44"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="D3" gate="G$1" pin="A"/>
@@ -5790,7 +5815,7 @@ Released Under CERN OHL v1.2</text>
 <pinref part="6&amp;7+" gate="G$1" pin="4"/>
 <wire x1="-162.56" y1="-12.7" x2="-162.56" y2="-30.48" width="0.1524" layer="91"/>
 <label x="-162.56" y="-30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="3.3V-TOGGLE-5" gate="G$1" pin="C-"/>
+<pinref part="3.3V-TOGGLE-3" gate="G$1" pin="C-"/>
 <wire x1="-167.64" y1="-33.02" x2="-165.1" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="-30.48" x2="-162.56" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
@@ -5802,9 +5827,9 @@ Released Under CERN OHL v1.2</text>
 <wire x1="-170.18" y1="-20.32" x2="-177.8" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-177.8" y1="-27.94" x2="-182.88" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="-27.94" x2="-185.42" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="3.3V-TOGGLE-5" gate="G$1" pin="L1"/>
+<pinref part="3.3V-TOGGLE-3" gate="G$1" pin="L1"/>
 <wire x1="-185.42" y1="-30.48" x2="-185.42" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="5V-TOGGLE-5" gate="G$1" pin="L1"/>
+<pinref part="5V-TOGGLE-3" gate="G$1" pin="L1"/>
 <wire x1="-185.42" y1="-45.72" x2="-187.96" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="-187.96" y1="-43.18" x2="-187.96" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-187.96" y1="-40.64" x2="-187.96" y2="-35.56" width="0.1524" layer="91"/>
@@ -5819,15 +5844,15 @@ Released Under CERN OHL v1.2</text>
 <wire x1="-63.5" y1="17.78" x2="-66.04" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="5V-TOGGLE-5" gate="G$1" pin="C+"/>
+<pinref part="5V-TOGGLE-3" gate="G$1" pin="C+"/>
 <wire x1="-167.64" y1="-50.8" x2="-165.1" y2="-53.34" width="0.1524" layer="91"/>
 <label x="-165.1" y="-53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ICSP-SSR" class="0">
 <segment>
-<pinref part="5V-TOGGLE-5" gate="G$1" pin="C-"/>
-<pinref part="3.3V-TOGGLE-5" gate="G$1" pin="C+"/>
+<pinref part="5V-TOGGLE-3" gate="G$1" pin="C-"/>
+<pinref part="3.3V-TOGGLE-3" gate="G$1" pin="C+"/>
 <wire x1="-167.64" y1="-45.72" x2="-167.64" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="-43.18" x2="-167.64" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="-40.64" x2="-167.64" y2="-38.1" width="0.1524" layer="91"/>
