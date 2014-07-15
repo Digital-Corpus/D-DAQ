@@ -57,38 +57,38 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="46.8376" x2="0" y2="3.0734" width="0" layer="20"/>
-<wire x1="3.0734" y1="0" x2="96.7486" y2="0" width="0" layer="20"/>
-<wire x1="99.822" y1="3.0734" x2="99.822" y2="46.8376" width="0" layer="20"/>
-<text x="68.86575" y="49.05375" size="1.524" layer="25" ratio="15" align="top-center">D-DAQ
+<wire x1="0" y1="45.6946" x2="0" y2="4.2164" width="0" layer="20"/>
+<wire x1="4.2164" y1="0" x2="95.6056" y2="0" width="0" layer="20"/>
+<wire x1="99.822" y1="4.2164" x2="99.822" y2="45.6946" width="0" layer="20"/>
+<text x="69.342" y="48.9585" size="1.524" layer="29" ratio="15" align="top-center">D-DAQ
 Proto 3.6</text>
-<wire x1="96.7486" y1="49.911" x2="3.0734" y2="49.911" width="0" layer="20"/>
-<wire x1="62.865" y1="49.149" x2="62.865" y2="45.339" width="0.2032" layer="41"/>
-<wire x1="62.865" y1="45.339" x2="63.627" y2="44.577" width="0.2032" layer="41"/>
-<wire x1="63.627" y1="44.577" x2="74.1045" y2="44.577" width="0.2032" layer="41"/>
-<wire x1="74.1045" y1="44.577" x2="74.96175" y2="45.43425" width="0.2032" layer="41"/>
-<wire x1="74.96175" y1="45.43425" x2="92.29725" y2="45.43425" width="0.2032" layer="41"/>
-<wire x1="92.29725" y1="45.43425" x2="92.964" y2="46.101" width="0.2032" layer="41"/>
-<wire x1="92.964" y1="46.101" x2="92.964" y2="49.149" width="0.2032" layer="41"/>
-<text x="75.057" y="49.05375" size="1.016" layer="25" ratio="15" align="top-left">Designed By
+<wire x1="95.6056" y1="49.911" x2="4.2164" y2="49.911" width="0" layer="20"/>
+<wire x1="63.246" y1="49.149" x2="63.246" y2="45.339" width="0.2032" layer="41"/>
+<wire x1="63.246" y1="45.339" x2="64.008" y2="44.577" width="0.2032" layer="41"/>
+<wire x1="64.008" y1="44.577" x2="74.4855" y2="44.577" width="0.2032" layer="41"/>
+<wire x1="74.4855" y1="44.577" x2="75.34275" y2="45.43425" width="0.2032" layer="41"/>
+<wire x1="75.34275" y1="45.43425" x2="92.67825" y2="45.43425" width="0.2032" layer="41"/>
+<wire x1="92.67825" y1="45.43425" x2="93.345" y2="46.101" width="0.2032" layer="41"/>
+<wire x1="93.345" y1="46.101" x2="93.345" y2="49.149" width="0.2032" layer="41"/>
+<text x="75.438" y="49.05375" size="1.016" layer="25" ratio="15" align="top-left">Designed By
 Michael O'Brien</text>
-<text x="68.961" y="48.9585" size="1.524" layer="1" ratio="15" align="top-center">D-DAQ
+<text x="69.342" y="48.9585" size="1.524" layer="1" ratio="15" align="top-center">D-DAQ
 Proto 3.6</text>
-<text x="75.15225" y="48.9585" size="1.016" layer="1" ratio="15" align="top-left">Designed By
+<text x="75.53325" y="48.9585" size="1.016" layer="1" ratio="15" align="top-left">Designed By
 Michael O'Brien</text>
-<text x="86.96325" y="49.05375" size="1.524" layer="26" ratio="15" rot="MR0" align="top-center">D-DAQ
+<text x="87.249" y="48.9585" size="1.524" layer="30" ratio="15" rot="MR0" align="top-center">D-DAQ
 Proto 3.6</text>
-<wire x1="92.964" y1="49.149" x2="92.964" y2="45.339" width="0.2032" layer="42"/>
-<wire x1="92.202" y1="44.577" x2="81.7245" y2="44.577" width="0.2032" layer="42"/>
-<wire x1="81.7245" y1="44.577" x2="80.86725" y2="45.43425" width="0.2032" layer="42"/>
-<wire x1="80.86725" y1="45.43425" x2="63.53175" y2="45.43425" width="0.2032" layer="42"/>
-<wire x1="63.53175" y1="45.43425" x2="62.865" y2="46.101" width="0.2032" layer="42"/>
-<wire x1="62.865" y1="46.101" x2="62.865" y2="49.149" width="0.2032" layer="42"/>
-<text x="80.772" y="49.05375" size="1.016" layer="26" ratio="15" rot="MR0" align="top-left">Designed By
+<wire x1="93.345" y1="49.149" x2="93.345" y2="45.339" width="0.2032" layer="42"/>
+<wire x1="92.583" y1="44.577" x2="82.1055" y2="44.577" width="0.2032" layer="42"/>
+<wire x1="82.1055" y1="44.577" x2="81.24825" y2="45.43425" width="0.2032" layer="42"/>
+<wire x1="81.24825" y1="45.43425" x2="63.91275" y2="45.43425" width="0.2032" layer="42"/>
+<wire x1="63.91275" y1="45.43425" x2="63.246" y2="46.101" width="0.2032" layer="42"/>
+<wire x1="63.246" y1="46.101" x2="63.246" y2="49.149" width="0.2032" layer="42"/>
+<text x="81.153" y="49.05375" size="1.016" layer="26" ratio="15" rot="MR0" align="top-left">Designed By
 Michael O'Brien</text>
-<text x="86.868" y="48.9585" size="1.524" layer="16" ratio="15" rot="MR0" align="top-center">D-DAQ
+<text x="87.249" y="48.9585" size="1.524" layer="16" ratio="15" rot="MR0" align="top-center">D-DAQ
 Proto 3.6</text>
-<text x="80.67675" y="48.9585" size="1.016" layer="16" ratio="15" rot="MR0" align="top-left">Designed By
+<text x="81.05775" y="48.9585" size="1.016" layer="16" ratio="15" rot="MR0" align="top-left">Designed By
 Michael O'Brien</text>
 <circle x="4.2" y="42.869" radius="1.5" width="0.0508" layer="41"/>
 <circle x="4.2" y="42.869" radius="1.5" width="0.0508" layer="42"/>
@@ -143,10 +143,11 @@ Michael O'Brien</text>
 <text x="96.2025" y="36.195" size="1.016" layer="29" font="vector" ratio="20" rot="R90" align="top-center">CERN OHL v1.2</text>
 <text x="96.2025" y="36.195" size="1.016" layer="16" font="vector" ratio="20" rot="SMR270" align="top-center">CERN OHL v1.2</text>
 <text x="96.2025" y="36.195" size="1.016" layer="30" font="vector" ratio="20" rot="SMR270" align="top-center">CERN OHL v1.2</text>
-<wire x1="0" y1="3.0734" x2="3.0734" y2="0" width="2.54" layer="20" curve="-232"/>
-<wire x1="3.0734" y1="49.911" x2="0" y2="46.8376" width="2.54" layer="20" curve="-232"/>
-<wire x1="99.822" y1="46.8376" x2="96.7486" y2="49.911" width="2.54" layer="20" curve="-232"/>
-<wire x1="96.7486" y1="0" x2="99.822" y2="3.0734" width="2.54" layer="20" curve="-232"/>
+<wire x1="0" y1="4.2164" x2="4.2164" y2="0" width="0" layer="20" curve="-205"/>
+<wire x1="4.2164" y1="49.911" x2="0" y2="45.6946" width="0" layer="20" curve="-205"/>
+<wire x1="99.822" y1="45.6946" x2="95.6056" y2="49.911" width="0" layer="20" curve="-205"/>
+<wire x1="95.6056" y1="0" x2="99.822" y2="4.2164" width="0" layer="20" curve="-205"/>
+<wire x1="93.345" y1="45.339" x2="92.583" y2="44.577" width="0.2032" layer="42"/>
 </plain>
 <libraries>
 <library name="Parts for D-DAQ">
@@ -316,7 +317,7 @@ Michael O'Brien</text>
 <wire x1="-9" y1="-5" x2="-9.4" y2="-5" width="0.127" layer="21"/>
 <wire x1="9" y1="-5" x2="9.4" y2="-5" width="0.127" layer="21"/>
 <wire x1="9" y1="5" x2="9.4" y2="5" width="0.127" layer="21"/>
-<text x="-10.16" y="0" size="1.27" layer="21" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="-10.16" y="0" size="1.016" layer="21" ratio="15" rot="R90" align="bottom-center">&gt;Name</text>
 </package>
 <package name="TSSOP-20">
 <smd name="1" x="-2.925" y="-2.75" dx="1" dy="0.35" layer="1" rot="R90"/>
@@ -346,7 +347,7 @@ Michael O'Brien</text>
 <wire x1="3.96" y1="-2.5" x2="3.96" y2="2.5" width="0.127" layer="21"/>
 <wire x1="3.96" y1="2.5" x2="3.46" y2="2.5" width="0.127" layer="21"/>
 <circle x="-4" y="-3" radius="0.353553125" width="0.127" layer="21"/>
-<text x="-4.445" y="0" size="1" layer="21" ratio="10" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="0" y="3.81" size="1" layer="21" ratio="10" align="bottom-center">&gt;Name</text>
 </package>
 <package name="LGA-8">
 <smd name="6" x="1.1" y="-0.625" dx="1" dy="0.55" layer="1"/>
@@ -450,7 +451,7 @@ SSR</text>
 <wire x1="2.75" y1="2.75" x2="2.75" y2="-2.75" width="0.127" layer="21"/>
 <wire x1="2.75" y1="-2.75" x2="2.5" y2="-2.75" width="0.127" layer="21"/>
 <circle x="-3" y="-3" radius="0.25" width="0.127" layer="21"/>
-<text x="-3.175" y="0" size="1" layer="21" ratio="10" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="0" y="-4.445" size="1.016" layer="21" ratio="15" rot="R180" align="bottom-center">&gt;Name</text>
 </package>
 <package name="LEADLESS-SMT">
 <smd name="1" x="-2.65" y="2.5" dx="2.54" dy="1.27" layer="1" rot="R180"/>
@@ -759,7 +760,7 @@ SSR</text>
 <wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
 <smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="40"/>
 <smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="40"/>
-<text x="-1.27" y="1.143" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2.413" y="-1.27" size="1.016" layer="25" ratio="15" rot="R90">&gt;NAME</text>
 <text x="-1.27" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
@@ -1310,8 +1311,8 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <element name="R130" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="81.295875" y="12.239625" rot="R45"/>
 <element name="C21" library="Parts for D-DAQ" package="SMD-1206" value="4.7uF" x="13.830978125" y="42.433875" rot="MR135"/>
 <element name="C22" library="Parts for D-DAQ" package="SMD-1210" value="10uF" x="10.00125" y="47.52975"/>
-<element name="R2" library="Parts for D-DAQ" package="SMD-0603" value="158k" x="19.71675" y="21.05025" rot="R270"/>
-<element name="R1" library="Parts for D-DAQ" package="SMD-0603" value="499k" x="19.71675" y="18.00225" rot="R270"/>
+<element name="R2" library="Parts for D-DAQ" package="SMD-0603" value="158k" x="19.90725" y="20.526375"/>
+<element name="R1" library="Parts for D-DAQ" package="SMD-0603" value="499k" x="19.90725" y="19.002375" rot="R180"/>
 <element name="R5" library="Parts for D-DAQ" package="SMD-0603" value="100k" x="11.33475" y="17.04975" rot="R270"/>
 <element name="C5" library="Parts for D-DAQ" package="SMD-0603" value="0.1uF" x="11.71575" y="23.71725" rot="R180"/>
 <element name="C6" library="Parts for D-DAQ" package="SMD-0603" value="10nF" x="19.90725" y="23.764875"/>
@@ -1321,7 +1322,7 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <element name="C4" library="Parts for D-DAQ" package="SMD-0603" value="1uF" x="11.33475" y="20.28825" rot="R270"/>
 <element name="R31" library="Parts for D-DAQ" package="SMD-0603" value="3.01k" x="29.81325" y="39.944675"/>
 <element name="R32" library="Parts for D-DAQ" package="SMD-0603" value="30.9k" x="30.95625" y="40.29075" rot="MR45"/>
-<element name="C31" library="Parts for D-DAQ" package="SMD-1210" value="10uF" x="25.81275" y="39.690675" rot="R180"/>
+<element name="C31" library="Parts for D-DAQ" package="SMD-1210" value="10uF" x="25.81275" y="39.690675"/>
 <element name="R4" library="Parts for D-DAQ" package="SMD-0603" value="10" x="9.42975" y="20.28825" rot="R90"/>
 <element name="R129" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="56.86425" y="31.956375"/>
 <element name="R127" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="61.1505" y="27.33675" rot="R180"/>
@@ -1382,12 +1383,12 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <element name="AUX-PRESS" library="Parts for D-DAQ" package="PC-1771101" value="PC-1771101" x="94.107" y="13.5255" rot="MR270"/>
 <element name="EGT" library="Parts for D-DAQ" package="PC-1702610" value="1702610" x="90.39225" y="6.76275" rot="R90"/>
 <element name="D1" library="Parts for D-DAQ" package="DO-219AB-2" value="S07D" x="23.860125" y="47.4345" rot="R180"/>
-<element name="U$6" library="Parts for D-DAQ" package="OSHW-LOGO-S" value="" x="91.059" y="46.863"/>
-<element name="U$7" library="Parts for D-DAQ" package="OSHW-LOGO-S" value="" x="64.77" y="46.863" rot="MR0"/>
+<element name="U$6" library="Parts for D-DAQ" package="OSHW-LOGO-S" value="" x="91.44" y="46.863"/>
+<element name="U$7" library="Parts for D-DAQ" package="OSHW-LOGO-S" value="" x="65.151" y="46.863" rot="MR0"/>
 <element name="F14" library="Parts for D-DAQ" package="SMD-0603" value="470" x="73.05675" y="20.193" rot="R270"/>
 <element name="R12" library="Parts for D-DAQ" package="SMD-0603" value="10k" x="42.672" y="23.669625" rot="MR0"/>
 <element name="C7" library="Parts for D-DAQ" package="SMD-0603" value="0.1uF" x="72.771" y="17.907" rot="R180"/>
-<element name="C2.1" library="Parts for D-DAQ" package="SMD-1210" value="10uF" x="22.621875" y="47.244" rot="MR0"/>
+<element name="C2.1" library="Parts for D-DAQ" package="SMD-1210" value="10uF" x="22.621875" y="47.625" rot="MR180"/>
 <element name="Y2" library="Parts for D-DAQ" package="SOIC-8" value="DS1099" x="10.56" y="47.13925" rot="MR0"/>
 <element name="C2.2" library="Parts for D-DAQ" package="SMD-1210" value="10uF" x="26.336625" y="41.386125" rot="MR0"/>
 <element name="14V-REG" library="Parts for D-DAQ" package="SOT-223-6" value="TL1963A-33DCQ" x="27.765375" y="35.2425" rot="MR180"/>
@@ -2312,9 +2313,9 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <wire x1="85.54955" y1="41.16305" x2="85.54955" y2="41.23735" width="0.2032" layer="16"/>
 <wire x1="89.779025" y1="26.152025" x2="93.443784375" y2="26.152025" width="0.254" layer="1"/>
 <wire x1="93.443784375" y1="26.152025" x2="94.488" y2="27.196240625" width="0.254" layer="1"/>
-<wire x1="92.059125" y1="40.528875" x2="93.5448125" y2="40.528875" width="0.254" layer="1"/>
-<wire x1="93.5448125" y1="40.528875" x2="94.488" y2="39.5856875" width="0.254" layer="1"/>
-<wire x1="94.488" y1="39.5856875" x2="94.488" y2="27.196240625" width="0.254" layer="1"/>
+<wire x1="91.91625" y1="40.528875" x2="93.5924375" y2="40.528875" width="0.254" layer="1"/>
+<wire x1="93.5924375" y1="40.528875" x2="94.488" y2="39.6333125" width="0.254" layer="1"/>
+<wire x1="94.488" y1="39.6333125" x2="94.488" y2="27.196240625" width="0.254" layer="1"/>
 <wire x1="59.342378125" y1="37.76610625" x2="58.57875" y2="38.52973125" width="0.1524" layer="16"/>
 <wire x1="58.57875" y1="39.90975" x2="58.95975" y2="40.29075" width="0.2032" layer="16"/>
 <wire x1="58.95975" y1="40.29075" x2="61.5315" y2="40.29075" width="0.254" layer="16"/>
@@ -2331,8 +2332,8 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <wire x1="85.54955" y1="41.16305" x2="85.120925" y2="41.16305" width="0.254" layer="16"/>
 <wire x1="85.120925" y1="41.16305" x2="84.86775" y2="40.909875" width="0.254" layer="16"/>
 <wire x1="89.011125" y1="44.053125" x2="90.344625" y2="42.719625" width="0.254" layer="1"/>
-<wire x1="90.344625" y1="42.719625" x2="90.344625" y2="42.243375" width="0.254" layer="1"/>
-<wire x1="90.344625" y1="42.243375" x2="92.059125" y2="40.528875" width="0.254" layer="1"/>
+<wire x1="90.344625" y1="42.719625" x2="90.344625" y2="42.1005" width="0.254" layer="1"/>
+<wire x1="90.344625" y1="42.1005" x2="91.91625" y2="40.528875" width="0.254" layer="1"/>
 </signal>
 <signal name="PMD8">
 <contactref element="PIC32MX" pad="90"/>
@@ -3565,11 +3566,7 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <wire x1="3.429" y1="22.2885" x2="3.81" y2="21.9075" width="0.508" layer="16"/>
 <wire x1="3.81" y1="21.9075" x2="3.81" y2="8.382" width="0.508" layer="16"/>
 <wire x1="3.81" y1="8.382" x2="8.382" y2="3.81" width="0.4064" layer="16"/>
-<wire x1="8.382" y1="3.81" x2="13.23975" y2="3.81" width="0.4064" layer="16"/>
-<wire x1="13.23975" y1="3.81" x2="13.5255" y2="4.09575" width="0.4064" layer="16"/>
-<wire x1="13.5255" y1="4.09575" x2="14.6685" y2="4.09575" width="0.4064" layer="16"/>
-<wire x1="14.6685" y1="4.09575" x2="14.95425" y2="3.81" width="0.4064" layer="16"/>
-<wire x1="14.95425" y1="3.81" x2="17.43075" y2="3.81" width="0.4064" layer="16"/>
+<wire x1="8.382" y1="3.81" x2="17.43075" y2="3.81" width="0.4064" layer="16"/>
 <wire x1="17.43075" y1="3.81" x2="18.95475" y2="3.81" width="0.3048" layer="16"/>
 <wire x1="18.95475" y1="3.81" x2="20.28825" y2="3.81" width="0.4064" layer="16"/>
 <wire x1="20.28825" y1="3.81" x2="21.9075" y2="3.81" width="0.3048" layer="16"/>
@@ -3588,7 +3585,7 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <wire x1="70.677625" y1="7.5745" x2="71.08775" y2="7.5745" width="0.4064" layer="16"/>
 <wire x1="44.434125" y1="7.14375" x2="44.864875" y2="7.5745" width="0.4064" layer="16"/>
 <wire x1="44.864875" y1="7.5745" x2="45.17975" y2="7.5745" width="0.4064" layer="16"/>
-<contactref element="C31" pad="1"/>
+<contactref element="C31" pad="2"/>
 <contactref element="14V-REG" pad="VOUT"/>
 <contactref element="R32" pad="2"/>
 <wire x1="13.716" y1="31.242" x2="5.61975" y2="31.242" width="0.508" layer="1"/>
@@ -4589,15 +4586,13 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <wire x1="63.910309375" y1="33.149440625" x2="64.648496875" y2="33.887628125" width="0.4064" layer="1"/>
 <via x="63.910309375" y="33.149440625" extent="1-16" drill="0.381"/>
 <wire x1="67.056" y1="30.00375" x2="63.910309375" y2="33.149440625" width="0.254" layer="16"/>
-<contactref element="R1" pad="2"/>
+<contactref element="R1" pad="1"/>
 <contactref element="C3" pad="2"/>
 <contactref element="L1" pad="P$2"/>
 <via x="22.00275" y="12.47775" extent="1-16" drill="0.381"/>
-<wire x1="22.00275" y1="12.47775" x2="22.00275" y2="14.859" width="0.3048" layer="16"/>
-<wire x1="22.00275" y1="14.859" x2="20.47875" y2="16.383" width="0.3048" layer="16"/>
-<via x="20.47875" y="16.383" extent="1-16" drill="0.381"/>
-<wire x1="20.47875" y1="16.383" x2="20.486" y2="16.383" width="0.3048" layer="1"/>
-<wire x1="20.486" y1="16.383" x2="19.71675" y2="17.15225" width="0.3048" layer="1"/>
+<wire x1="22.00275" y1="12.47775" x2="22.00275" y2="16.002" width="0.3048" layer="16"/>
+<wire x1="22.00275" y1="16.002" x2="20.85975" y2="17.145" width="0.3048" layer="16"/>
+<via x="20.85975" y="17.145" extent="1-16" drill="0.381"/>
 <polygon width="0.254" layer="1" spacing="0.0254" isolate="0.2032" thermals="no">
 <vertex x="18.57375" y="4.66725"/>
 <vertex x="18.57375" y="11.33475"/>
@@ -4700,6 +4695,8 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <wire x1="40.03165625" y1="28.09875" x2="40.528875" y2="28.59596875" width="0.508" layer="16"/>
 <wire x1="40.528875" y1="28.59596875" x2="40.528875" y2="33.480375" width="0.508" layer="16"/>
 <wire x1="40.528875" y1="33.480375" x2="40.338375" y2="33.670875" width="0.508" layer="16"/>
+<wire x1="20.85975" y1="17.145" x2="20.75725" y2="17.2475" width="0.3048" layer="1"/>
+<wire x1="20.75725" y1="17.2475" x2="20.75725" y2="19.002375" width="0.3048" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="DISP-1" pad="1"/>
@@ -4730,7 +4727,7 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <contactref element="MAIN-SMPS" pad="12"/>
 <contactref element="C4" pad="1"/>
 <contactref element="C6" pad="2"/>
-<contactref element="R2" pad="1"/>
+<contactref element="R2" pad="2"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C1.1" pad="2"/>
 <contactref element="C1.2" pad="2"/>
@@ -4840,19 +4837,19 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <via x="59.15025" y="34.671" extent="1-16" drill="0.381"/>
 <contactref element="D1" pad="P$1"/>
 <polygon width="0.2032" layer="16" spacing="0.2032" isolate="0.1778" rank="6">
-<vertex x="92.202" y="1.016"/>
-<vertex x="7.62" y="1.016"/>
-<vertex x="1.016" y="7.62"/>
-<vertex x="1.016" y="42.291"/>
-<vertex x="7.62" y="48.895"/>
-<vertex x="92.202" y="48.895"/>
-<vertex x="98.806" y="42.291"/>
-<vertex x="98.806" y="7.62"/>
+<vertex x="94.488" y="1.016"/>
+<vertex x="5.334" y="1.016"/>
+<vertex x="1.016" y="5.334"/>
+<vertex x="1.016" y="44.577"/>
+<vertex x="5.334" y="48.895"/>
+<vertex x="94.488" y="48.895"/>
+<vertex x="98.806" y="44.577"/>
+<vertex x="98.806" y="5.334"/>
 </polygon>
 <polygon width="0.2032" layer="1" spacing="0.2032" isolate="0.1778" rank="6">
-<vertex x="92.202" y="1.016"/>
-<vertex x="7.62" y="1.016"/>
-<vertex x="1.016" y="7.62"/>
+<vertex x="94.488" y="1.016"/>
+<vertex x="5.334" y="1.016"/>
+<vertex x="1.016" y="5.334"/>
 <vertex x="1.016" y="13.335"/>
 <vertex x="3.71475" y="13.335"/>
 <vertex x="3.71475" y="8.3427125"/>
@@ -4868,11 +4865,11 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <vertex x="3.71475" y="28.86075"/>
 <vertex x="3.71475" y="13.43025"/>
 <vertex x="1.016" y="13.43025"/>
-<vertex x="1.016" y="42.291"/>
-<vertex x="7.62" y="48.895"/>
-<vertex x="92.202" y="48.895"/>
-<vertex x="98.806" y="42.291"/>
-<vertex x="98.806" y="7.62"/>
+<vertex x="1.016" y="44.577"/>
+<vertex x="5.334" y="48.895"/>
+<vertex x="94.488" y="48.895"/>
+<vertex x="98.806" y="44.577"/>
+<vertex x="98.806" y="5.334"/>
 </polygon>
 <via x="70.77075" y="42.291" extent="1-16" drill="1"/>
 <polygon width="0.254" layer="1" spacing="0.6096" isolate="0.2032" thermals="no">
@@ -4919,7 +4916,7 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <contactref element="14V-REG" pad="GND"/>
 <contactref element="14V-REG" pad="TAB"/>
 <contactref element="R31" pad="1"/>
-<contactref element="C31" pad="2"/>
+<contactref element="C31" pad="1"/>
 <contactref element="C2.2" pad="2"/>
 <contactref element="Y2" pad="6"/>
 <contactref element="Y2" pad="4"/>
@@ -5002,15 +4999,15 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 </signal>
 <signal name="12V-FB">
 <contactref element="MAIN-SMPS" pad="P14"/>
-<contactref element="R1" pad="1"/>
-<contactref element="R2" pad="2"/>
+<contactref element="R1" pad="2"/>
+<contactref element="R2" pad="1"/>
 <polygon width="0.254" layer="1" spacing="0.0254" isolate="0.2032" thermals="no" rank="2">
 <vertex x="17.62125" y="20.193"/>
-<vertex x="18.57375" y="20.193"/>
-<vertex x="19.05" y="20.66925"/>
-<vertex x="20.28825" y="20.66925"/>
-<vertex x="20.28825" y="18.38325"/>
-<vertex x="19.14525" y="18.38325"/>
+<vertex x="18.0975" y="20.193"/>
+<vertex x="18.95475" y="21.05025"/>
+<vertex x="19.33575" y="21.05025"/>
+<vertex x="19.33575" y="18.57375"/>
+<vertex x="18.95475" y="18.57375"/>
 <vertex x="17.811115625" y="19.717384375"/>
 <vertex x="17.62125" y="19.717384375"/>
 </polygon>
@@ -5205,22 +5202,23 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <contactref element="4&amp;5" pad="2"/>
 <wire x1="37.89275" y1="5.92225" x2="38.57625" y2="5.23875" width="0.2032" layer="1"/>
 <wire x1="38.57625" y1="5.23875" x2="39.385875" y2="5.23875" width="0.2032" layer="1"/>
-<wire x1="39.385875" y1="5.23875" x2="40.147875" y2="6.00075" width="0.2032" layer="1"/>
-<wire x1="40.147875" y1="6.00075" x2="40.147875" y2="9.191625" width="0.2032" layer="1"/>
-<wire x1="40.147875" y1="9.191625" x2="39.71925" y2="9.62025" width="0.2032" layer="1"/>
-<wire x1="39.71925" y1="9.62025" x2="39.71925" y2="11.096625" width="0.2032" layer="1"/>
-<wire x1="39.71925" y1="11.096625" x2="39.766875" y2="11.14425" width="0.2032" layer="1"/>
-<wire x1="39.766875" y1="11.14425" x2="39.766875" y2="12.00875" width="0.2032" layer="1"/>
+<wire x1="39.385875" y1="5.23875" x2="39.957375" y2="5.81025" width="0.2032" layer="1"/>
+<wire x1="39.957375" y1="5.81025" x2="39.957375" y2="7.381875" width="0.2032" layer="1"/>
+<wire x1="39.957375" y1="7.381875" x2="39.385875" y2="7.953375" width="0.2032" layer="1"/>
+<wire x1="39.385875" y1="7.953375" x2="39.385875" y2="11.14425" width="0.2032" layer="1"/>
+<wire x1="39.385875" y1="11.14425" x2="39.766875" y2="11.52525" width="0.2032" layer="1"/>
+<wire x1="39.766875" y1="11.52525" x2="39.766875" y2="12.00875" width="0.2032" layer="1"/>
 </signal>
 <signal name="AN5">
 <contactref element="F5" pad="1"/>
 <contactref element="4&amp;5" pad="3"/>
 <wire x1="37.0595" y1="6.57225" x2="37.861875" y2="6.57225" width="0.2032" layer="1"/>
 <wire x1="37.861875" y1="6.57225" x2="38.1" y2="6.810375" width="0.2032" layer="1"/>
-<wire x1="38.1" y1="6.810375" x2="38.1" y2="8.382" width="0.2032" layer="1"/>
-<wire x1="38.1" y1="10.4775" x2="38.1" y2="8.382" width="0.2032" layer="1"/>
-<wire x1="38.1" y1="10.4775" x2="38.19525" y2="10.57275" width="0.2032" layer="1"/>
-<wire x1="38.19525" y1="10.57275" x2="38.19525" y2="11.342" width="0.2032" layer="1"/>
+<wire x1="38.1" y1="7.4295" x2="38.1" y2="6.810375" width="0.2032" layer="1"/>
+<wire x1="38.1" y1="7.4295" x2="38.623875" y2="7.953375" width="0.2032" layer="1"/>
+<wire x1="38.623875" y1="7.953375" x2="38.623875" y2="10.429875" width="0.2032" layer="1"/>
+<wire x1="38.623875" y1="10.429875" x2="38.19525" y2="10.8585" width="0.2032" layer="1"/>
+<wire x1="38.19525" y1="10.8585" x2="38.19525" y2="11.342" width="0.2032" layer="1"/>
 </signal>
 <signal name="AN6">
 <contactref element="F6" pad="1"/>
@@ -5340,8 +5338,8 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <contactref element="C1.2" pad="1"/>
 <contactref element="C1.1" pad="1"/>
 <contactref element="R10" pad="1"/>
-<wire x1="18.19275" y1="4.66" x2="13.32775" y2="4.66" width="0.3048" layer="16"/>
-<wire x1="13.32775" y1="4.66" x2="13.04925" y2="4.3815" width="0.3048" layer="16"/>
+<wire x1="18.19275" y1="4.66" x2="17.51875" y2="4.66" width="0.3048" layer="16"/>
+<wire x1="17.51875" y1="4.66" x2="17.24025" y2="4.3815" width="0.3048" layer="16"/>
 <polygon width="0.254" layer="16" spacing="0.0254" isolate="0.2032">
 <vertex x="14.00175" y="13.62075"/>
 <vertex x="11.52525" y="13.62075"/>
@@ -5390,7 +5388,7 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <via x="12.3825" y="14.00175" extent="1-16" drill="0.381"/>
 <via x="13.335" y="15.001875" extent="1-16" drill="0.381"/>
 <via x="12.3825" y="15.001875" extent="1-16" drill="0.381"/>
-<wire x1="13.04925" y1="4.3815" x2="8.5725" y2="4.3815" width="0.3048" layer="16"/>
+<wire x1="17.24025" y1="4.3815" x2="8.5725" y2="4.3815" width="0.3048" layer="16"/>
 <wire x1="8.5725" y1="4.3815" x2="4.47675" y2="8.5725" width="0.3048" layer="16"/>
 <via x="13.335" y="14.00175" extent="1-16" drill="0.381"/>
 <wire x1="4.47675" y1="8.5725" x2="4.47675" y2="15.14475" width="0.3048" layer="16"/>
@@ -5407,21 +5405,20 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <wire x1="16.0521625" y1="40.240584375" x2="14.6685" y2="38.856921875" width="0.8128" layer="16"/>
 <wire x1="14.6685" y1="38.856921875" x2="14.6685" y2="30.38475" width="0.8128" layer="16"/>
 <wire x1="14.6685" y1="30.38475" x2="13.36675" y2="29.11475" width="0.8128" layer="16"/>
-<wire x1="18.96175" y1="44.3935" x2="19.6215" y2="45.05325" width="0.6096" layer="16"/>
-<wire x1="19.6215" y1="45.05325" x2="25.982" y2="45.05325" width="0.6096" layer="16"/>
-<wire x1="25.982" y1="45.05325" x2="26.38425" y2="44.651" width="0.6096" layer="16"/>
-<wire x1="18.96175" y1="44.3935" x2="18.96175" y2="42.4325" width="0.6096" layer="16"/>
+<wire x1="18.96175" y1="44.29825" x2="19.6215" y2="44.958" width="0.6096" layer="16"/>
+<wire x1="18.96175" y1="44.29825" x2="18.96175" y2="42.4325" width="0.6096" layer="16"/>
 <wire x1="5.191125" y1="15.859125" x2="11.001375" y2="15.859125" width="0.3048" layer="16"/>
 <contactref element="5V-REG" pad="VIN"/>
 <contactref element="C22" pad="1"/>
 <wire x1="7.70125" y1="44.9195" x2="7.70125" y2="44.49575" width="0.508" layer="1"/>
-<wire x1="7.70125" y1="44.49575" x2="8.763" y2="43.434" width="0.508" layer="1"/>
-<via x="8.763" y="43.434" extent="1-16" drill="0.381"/>
-<wire x1="8.763" y1="43.434" x2="11.2395" y2="43.434" width="0.508" layer="16"/>
-<wire x1="11.2395" y1="43.434" x2="12.858746875" y2="43.434" width="0.508" layer="16"/>
-<wire x1="12.858746875" y1="43.434" x2="16.0521625" y2="40.240584375" width="0.508" layer="16"/>
+<wire x1="7.70125" y1="44.49575" x2="8.66775" y2="43.52925" width="0.508" layer="1"/>
+<via x="8.66775" y="43.52925" extent="1-16" drill="0.5"/>
+<wire x1="8.66775" y1="43.52925" x2="12.668246875" y2="43.52925" width="0.508" layer="16"/>
+<wire x1="12.668246875" y1="43.52925" x2="16.0521625" y2="40.240584375" width="0.508" layer="16"/>
 <wire x1="8.60125" y1="47.52975" x2="7.70125" y2="46.62975" width="0.6096" layer="1"/>
 <wire x1="7.70125" y1="46.62975" x2="7.70125" y2="44.9195" width="0.6096" layer="1"/>
+<wire x1="19.6215" y1="44.958" x2="26.07725" y2="44.958" width="0.6096" layer="16"/>
+<wire x1="26.07725" y1="44.958" x2="26.38425" y2="44.651" width="0.6096" layer="16"/>
 </signal>
 <signal name="PWR-GND">
 <contactref element="POWER" pad="R"/>
@@ -5579,11 +5576,11 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 <signal name="IN">
 </signal>
 <signal name="CHARG-CAPS">
-<contactref element="C2.1" pad="2"/>
+<contactref element="C2.1" pad="1"/>
 <contactref element="Y2" pad="1"/>
 <wire x1="12.71" y1="48.11425" x2="13.60775" y2="48.11425" width="0.3048" layer="16"/>
-<wire x1="13.60775" y1="48.11425" x2="14.478" y2="47.244" width="0.3048" layer="16"/>
-<wire x1="14.478" y1="47.244" x2="21.221875" y2="47.244" width="0.3048" layer="16"/>
+<wire x1="13.60775" y1="48.11425" x2="14.097" y2="47.625" width="0.3048" layer="16"/>
+<wire x1="14.097" y1="47.625" x2="21.221875" y2="47.625" width="0.3048" layer="16"/>
 </signal>
 <signal name="14V-ADJ">
 <contactref element="14V-REG" pad="ADJ"/>
@@ -5597,16 +5594,16 @@ These rules were configured to support the lab OSH Park uses. They have been mod
 </signal>
 <signal name="CP-PUMP">
 <contactref element="D2" pad="P$2"/>
-<contactref element="C2.1" pad="1"/>
+<contactref element="C2.1" pad="2"/>
 <contactref element="D3" pad="P$1"/>
-<wire x1="24.021875" y1="47.244" x2="25.05075" y2="47.244" width="0.6096" layer="16"/>
-<wire x1="25.05075" y1="47.244" x2="25.35775" y2="47.551" width="0.6096" layer="16"/>
-<wire x1="25.35775" y1="47.551" x2="26.38425" y2="47.551" width="0.6096" layer="16"/>
-<wire x1="26.38425" y1="47.551" x2="28.97725" y2="47.551" width="0.6096" layer="16"/>
-<wire x1="28.97725" y1="47.551" x2="29.1465" y2="47.72025" width="0.6096" layer="16"/>
-<via x="29.1465" y="47.72025" extent="1-16" drill="0.5"/>
-<wire x1="27.670125" y1="47.551" x2="28.958925" y2="47.532675" width="0.6096" layer="1"/>
-<wire x1="28.958925" y1="47.532675" x2="29.1465" y2="47.72025" width="0.6096" layer="1"/>
+<wire x1="24.021875" y1="47.625" x2="25.146" y2="47.625" width="0.6096" layer="16"/>
+<wire x1="25.146" y1="47.625" x2="25.22" y2="47.551" width="0.6096" layer="16"/>
+<wire x1="25.22" y1="47.551" x2="26.38425" y2="47.551" width="0.6096" layer="16"/>
+<wire x1="26.38425" y1="47.551" x2="26.38425" y2="48.1965" width="0.6096" layer="16"/>
+<wire x1="26.38425" y1="48.1965" x2="26.95575" y2="48.768" width="0.6096" layer="16"/>
+<via x="26.95575" y="48.768" extent="1-16" drill="0.6"/>
+<wire x1="26.95575" y1="48.768" x2="27.670125" y2="48.053625" width="0.6096" layer="1"/>
+<wire x1="27.670125" y1="48.053625" x2="27.670125" y2="47.551" width="0.6096" layer="1"/>
 </signal>
 <signal name="14V-INPUT">
 <contactref element="C2.2" pad="1"/>
